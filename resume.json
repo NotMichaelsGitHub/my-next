@@ -1,0 +1,102 @@
+{
+	"jobs":
+		{
+			"FoodBoss":
+				[
+					{
+						"type": "Software Engineer",
+						"roll": "Contractor",
+						"location": "Chicago, Illinois",
+						"time": "Winter 2020",
+						"what-i-did":
+							[
+                        "Built home page, static pages, redesigned the Search page and respective components using Redux React and NextJS",
+								"Refactored and restyled React components with modern ES6 syntax, SCSS and Redux React",
+								"Added Selenium tests, using a chromium driver, to our codebase to test pull requests when they get created so we can automatically validate them before merging into staging or production",
+								"Implimented a Pull Request template to our GitHub repository to help organzie and abstract the PRs"
+                     ]
+					}
+            ],
+         "Anixter International Inc":
+				[
+					{
+						"type": "Intern",
+						"roll": "Information Services Development Program",
+						"location": "Chicago, Illinois",
+						"time": "Summer 2019",
+						"what-i-did":
+							[
+                        "Built an Electron desktop application to function as an interactive catalog for Project Managers and Sales Reps to aggregate through a database of shipping labels. ",
+								"Created a database of 1000+ active shipping labels with corresponding web app to maintain it.",
+								"Wrote scripts to calculate the estimated shipping cost for packages sent from a warehouse in New South Wales, Australia"
+                     ]
+					}
+            ],
+         "Chicago Transit Authority":
+				[
+					{
+						"type": "Software Development Intern",
+						"roll": "Transit Operations",
+						"location": "Chicago, Illinois",
+						"time": "Winter 2019 & Summer 2019",
+						"what-i-did":
+							[
+                        "Recreated an active 10 year old web portal from the ground up in an ASP.NET MVC environment",
+                        "Added new functionality to shelter/bus sign maintenance program allowing it easier for maintenance workers to respond when a bus time display is broken",
+                        "Wrote a documentation manual for the CTA Train Tracker",
+                        "Created a program to digitize the Terminal Log sheets. Employees would previously record data on paper for someone else to manually update a database after their shift; my program takes care of all that in one go. When an employee fills out the form, it automatically populates the database "
+                     ]
+					}
+            ],
+         "Illinois Tool Works":
+				[
+					{
+						"type": "Computer Science Intern",
+						"roll": "Innovation Center",
+						"location": "Glenview, Illinois",
+						"time": "Summer 2018",
+						"what-i-did":
+							[
+                        "Created and updated pages to the ITW Innovation Center Sharepoint websites",
+                        "Wrote scripts tracking online data for various ITW branches. The scripts automatically run every 2 weeks to collect tweets, blog posts, YouTube videos and whatever other online content that mentions the specific company/products",
+                        "Programmed a Sawyer robot to flip burgers and/or pancakes for a live demo to show on tours of the ITW headquarters"
+                     ]
+					}
+            ]
+      },
+   "additional-industry-experience":
+      {
+         "Futhead":
+         [
+            {
+               "type": "Volunteer",
+               "roll": "Moderator",
+               "location": "Huntsville, Alabama",
+               "time": "Fall 2015 - Present Day",
+               "what-i-did":
+                  [
+                     "Maintain and monitor a large online Fifa Ultimate Team community. (over 1 million unique users and 80 mil unique visitors)",
+                     "Provide feedback for the owner and lead web developers to help with upkeep and production of new features",
+                     "Gained insight about what goes on behind the scenes of a website. I learned about what it takes to run a forum/database website, including the various social media aspects This knowledge will translate to all future web projects I work on"
+                  ]
+            }
+         ],
+         "Deploy Solutions Inc":
+         [
+            {
+               "type": "Web Developer",
+               "roll": "Freelance",
+               "location": "Toronto, Canada",
+               "time": "Spring 2020",
+               "what-i-did":
+                  [
+                     "TBD"
+                  ]
+            }
+         ]
+      },
+   "relevant-coursework":["Data Structures 1 & 2", "Software Projects for Community Clients 1 and 2", "Advanced Application Development 1 & 2", "Server-Side Web Development", "Data Analysis", "App Development Framework", "Human Computer Interaction", "Computer Systems"],
+   "personal-projects":[],
+   "clubs":[],
+   "extracurriculars": []  
+}

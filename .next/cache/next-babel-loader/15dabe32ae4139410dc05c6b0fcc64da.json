@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Layout from '../components/MyLayout';\nimport Kits from '../components/Kits';\n\nvar ResumePage = function ResumePage() {\n  return __jsx(Layout, null, __jsx(Kits, null));\n};\n\nexport default ResumePage;","map":null,"metadata":{},"sourceType":"module"}

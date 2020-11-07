@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Layout from '../components/MyLayout';\nimport Japan from '../components/Japan';\n\nvar JapanVlogs = function JapanVlogs() {\n  return __jsx(Layout, null, __jsx(Japan, null));\n};\n\nexport default JapanVlogs;","map":null,"metadata":{},"sourceType":"module"}

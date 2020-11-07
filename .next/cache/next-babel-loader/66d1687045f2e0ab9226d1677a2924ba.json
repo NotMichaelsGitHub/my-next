@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const addTurn = () => {\n  return {\n    type: 'DEBUG_INCREMENT_TURN'\n  };\n};\nexport const makeMove = location => {\n  return {\n    type: 'MAKE_MOVE',\n    location: location\n  };\n};","map":null,"metadata":{},"sourceType":"module"}

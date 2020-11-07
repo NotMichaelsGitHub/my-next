@@ -1,0 +1,66 @@
+{
+  "plugins": [
+    "promise",
+    "node",
+    "security",
+    "jsx-a11y",
+    "react",
+    "simple-import-sort"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+    // "jasmine": true <--- need this :)
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "settings": {
+    "react": {
+      "createClass": "createReactClass", // Regex for Component Factory to use,
+      // default to "createReactClass"
+      "pragma": "React", // Pragma to use, default to "React"
+      "version": "detect", // React version. "detect" automatically picks the version you have installed.
+      "flowVersion": "detect" // Flow version
+    }
+  },
+  // "env": {"es6": true},
+  "globals": {
+    "__DEV__": false,
+    "__PROD__": false,
+    "__DEBUG__": false,
+    "__COVERAGE__": false,
+    "__BASENAME__": false
+  },
+  "rules": {
+    "key-spacing": [
+      2,
+      {
+        "singleLine": {
+          "beforeColon": false,
+          "afterColon": true
+        },
+        "multiLine": {
+          "beforeColon": false,
+          "afterColon": true
+        }
+      }
+    ],
+    "quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-single"], // irony is rich.
+    "no-console": "warn",
+    "no-else-return": 2,
+    "max-len": 0,
+    "object-curly-spacing": [2, "always"],
+    "semi": ["error", "always", { "omitLastInOneLineBlock": true }],
+    "indent": ["error", 2],
+    "comma-dangle": ["error", "always-multiline"],
+    "node/no-unsupported-features": 0,
+    "react/react-in-jsx-scope": 0,
+    "simple-import-sort/sort": "error"
+  }
+}

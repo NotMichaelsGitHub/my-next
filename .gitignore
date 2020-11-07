@@ -1,0 +1,6 @@
+.now
+
+# Optional eslint cache
+.eslintcache
+node_modules
+vscode://vscode.github-authentication/did-authenticate?windowid=3&code=21361fbcd6325a0d4dce&state=b899899f-f49b-4f2a-85c9-7f4b797b6ec0

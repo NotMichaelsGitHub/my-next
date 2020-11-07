@@ -27,6 +27,9 @@ const Header = () => (
         <Link href='/japan-vlogs'>
           <a>Japan Vlogs</a>
         </Link>
+        <Link href='/swansea'>
+          <a>Swansea</a>
+        </Link>
         <Link href='https://myanimelist.net/animelist/NotMichael?status=7&order=4&order2=0'>
           <a target='_blank'>
           MAL

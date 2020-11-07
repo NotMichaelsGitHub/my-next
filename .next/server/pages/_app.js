@@ -93,915 +93,154 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ 0:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/bootstrap/dist/css/bootstrap.min.css":
+/*!***********************************************************!*\
+  !*** ./node_modules/bootstrap/dist/css/bootstrap.min.css ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__("1TCz");
-
+eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL25vZGVfbW9kdWxlcy9ib290c3RyYXAvZGlzdC9jc3MvYm9vdHN0cmFwLm1pbi5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/bootstrap/dist/css/bootstrap.min.css\n");
 
 /***/ }),
 
-/***/ "1TCz":
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ MyApp; });
-
-// EXTERNAL MODULE: ./node_modules/bootstrap/dist/css/bootstrap.min.css
-var bootstrap_min = __webpack_require__("q4sD");
-
-// EXTERNAL MODULE: ./styles/resume.css
-var resume = __webpack_require__("wQ99");
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "react-redux"
-var external_react_redux_ = __webpack_require__("h74D");
-
-// EXTERNAL MODULE: external "redux"
-var external_redux_ = __webpack_require__("rKB8");
-
-// CONCATENATED MODULE: ./reducers/resume-reducer.js
-/* harmony default export */ var resume_reducer = (function () {
-  return {
-    jobs: [{
-      company: "Health Care Service Corportaion (BCBS)",
-      type: "Software Engineer (Test)",
-      roll: "Associate",
-      location: "Chicago, Illinois",
-      time: "Summer - Present Day",
-      whathappened: ["Write and manage automated testing scripts for the BCBSIL Android app using Java, Selenium and Maven ", "Leading the refactoring efforts to clean up the mobile app testing framework (both Android and iOS)", "Created a slew of new reusable helper functions for the team to use when scripting automated test cases ", "Help create the user stories for both the manual and automated test cases "],
-      link: "https://play.google.com/store/apps/details?id=com.hcsc.android.providerfinderil&hl=en_US&gl=US"
-    }, {
-      company: "FoodBoss",
-      type: "Software Engineer",
-      roll: "Intern",
-      location: "Chicago, Illinois",
-      time: "Winter - Spring 2020",
-      whathappened: ["Built home page, static pages, redesigned the search page using Redux, React and NextJS", "Refactored and restyled React components with modern ES6 syntax, SCSS and Redux React", "Added Selenium tests, with a chrome driver, to our codebase to test pull requests when they get created, so we can automatically validate them before merging into staging or production", "Implemented a Pull Request template to our Github repository to help organize and abstract new Pull Requests"],
-      link: "https://www.foodboss.com/"
-    }, {
-      company: "Anixter International Inc",
-      type: "Intern",
-      roll: "Information Services Development Program",
-      location: "Chicago, Illinois",
-      time: "Summer 2019",
-      whathappened: ["Built an Electron desktop application to function as an interactive catalog for Project Managers and Sales Reps to aggregate through a database of shipping labels. ", "Created a database of 1000+ active shipping labels with corresponding web app to maintain it.", "Wrote scripts to calculate the estimated shipping cost for packages sent from a warehouse in New South Wales, Australia"],
-      link: "none"
-    }, {
-      company: "Chicago Transit Authority",
-      type: "Software Development Intern",
-      roll: "Transit Operations",
-      location: "Chicago, Illinois",
-      time: "Winter/Spring 2018 & Summer 2018",
-      whathappened: ["Recreated a 10 year old web portal from the ground up using ASP.NET MVC", "Added new functionality to shelter/bus sign maintenance program, enabling maintenance workers to handle repairs quicker and easier", "Wrote a documentation manual for the CTA Train Tracker", "Created a program to digitize Terminal Log sheets. Employees would previously record data on paper for someone else to manually update a spreadsheet after their shift; my program takes care of all that in one go. When an employee fills out the form, it automatically populates the database"],
-      link: "none"
-    }, {
-      company: "Illinois Tool Works",
-      type: "Computer Science Intern",
-      roll: "Innovation Center",
-      location: "Glenview, Illinois",
-      time: "Summer 2017",
-      whathappened: ["Created and updated pages to the ITW Innovation Center Sharepoint websites", "Wrote scripts tracking online data for various ITW branches. The scripts automatically run every 2 weeks to collect tweets, blog posts, YouTube videos and whatever other online content that mentions the specific company/products", "Programmed a Sawyer robot to flip burgers and/or pancakes for a live demo to show on tours of the ITW headquarters"],
-      link: "https://www.youtube.com/watch?v=6arNqddjC6M"
-    }],
-    additionalIndustryExperience: [{
-      company: "Futhead",
-      type: "Volunteer",
-      roll: "Moderator",
-      location: "Huntsville, Alabama",
-      time: "Fall 2015 - Present Day",
-      whathappened: ["Maintain and monitor a large online Fifa Ultimate Team community (over 1 million unique users and 80 mil unique visitors)", "Provide feedback for the owner and lead developers to help with upkeep, testing and production of new features", "Learned about what it takes to run a forum/database website, including the various social media aspects"],
-      link: "https://www.futhead.com/"
-    }, {
-      company: "Inspect All Home Inspections Inc",
-      type: "Web Developer",
-      roll: "Freelance",
-      location: "Chicago, Illinois",
-      time: "Fall 2020",
-      whathappened: ["TBD"],
-      link: "none"
-    }],
-    relevantCoursework: ["Data Structures 1 & 2", "Software Projects for Community Clients", "Advanced Application Development 1 & 2", "Server-Side Web Development", "Data Analysis", "App Development Framework", "Human Computer Interaction", "Computer Systems"],
-    projects: [{
-      name: "This",
-      description: "I made this website",
-      link: "/"
-    }, {
-      name: "Shitty Dating",
-      description: "TBA",
-      link: "TBD"
-    }, {
-      name: "Beer",
-      description: "An indepth, statistical and scientific analysis of all the different kinds of beer I've sampled over the years",
-      link: "beer"
-    }, {
-      name: "Pokemon TCG Card Price Aggregator",
-      description: "I'm currently working on a project to scrape TCG Player, Ebay and Troll & Toad to check, track and compare prices for Pokemon cards",
-      link: "TBD"
-    }, {
-      name: "Tic Tac Toe",
-      description: "I created a tic tac toe game in React Redux to server as a potential interview project for FoodBoss",
-      link: "https://dipaolo-react-redux-ttt.herokuapp.com/"
-    }, {
-      name: "Is it Rotating? Pokemon TCG 2019-2020",
-      description: "I created a tool read from the Pokemon TCGO API and check to see which cards are leaving the format come the 2019 rotation",
-      link: "https://notmichaelsgithub.github.io/is_it_rotating/"
-    }, {
-      name: "Wogwon's FIFA IG Stat Calculator",
-      description: "A web app using the legendary Futheader Wogwon's card stat algorithm. This was the first javascript project I made back in high school and I'll love it forever",
-      link: "https://notmichaelsgithub.github.io/wogwoncalc/"
-    }, {
-      name: "My Code Pen account",
-      description: "I toss up cool/useful blocks of code here that don't warrant a whole project based around them",
-      link: "https://codepen.io/NotMichael/pens/"
-    }],
-    sports: [{
-      name: "DePaul Men's Club Volleyball",
-      position: "Libero",
-      time: "2016 - 2020",
-      accolades: ["1st Place Men's AA Gold @ MIVAs 16-17", "3rd Place Men's AA Gold @ Nationals 16-17", "15th Place Men's A Gold @ Nationals 17-18", "1st Place Men's A Silver @ Nationals 18-19"]
-    }, {
-      name: "DePaul Men's Club Soccer",
-      position: "Defensive Mid",
-      time: "2017 - 2020",
-      accolades: ["We tried"]
-    }, {
-      name: "Di Paolo FC",
-      position: "Defensive Mid / Right Wingback",
-      time: "2019 - Present Day",
-      accolades: ["1st Place Advanced Co-Ed 7v7 @ CFRS Summer Session 2019"]
-    }, {
-      name: "Competitive Pokemon",
-      position: "Senior",
-      time: "1998 - Present Day",
-      accolades: ["17th Place Madison VGC Regional - 2018", "1st Place Wednesday Night Standard TCG Tournament @ Near Mint Games 7/3/19"]
-    }],
-    languages: [{
-      name: "English",
-      level: "Fluent",
-      years: "21 years"
-    }, {
-      name: "Japanese",
-      level: "Beginner",
-      years: "1 year"
-    }]
-  };
-});
-// CONCATENATED MODULE: ./reducers/kits-reducer.js
-/* harmony default export */ var kits_reducer = (function () {
-  return {
-    allkits: [{
-      name: 'DePaul Men\'s Club Volleyball',
-      season: '2018-2019 ',
-      sport: 'Volleyball',
-      edition: 'Home',
-      description: 'Inspired by the Chicago White Sox',
-      link: 'https://i.imgur.com/RVdQdr9.jpg'
-    }, {
-      name: 'DePaul Men\'s Club Volleyball',
-      season: '2018-2019',
-      sport: 'Volleyball',
-      edition: 'Away',
-      description: 'Inspired by the Chicago Cubs',
-      link: 'https://i.imgur.com/xgdrvc7.jpg'
-    }, {
-      name: 'DePaul Men\'s Club Soccer',
-      season: '2019-2020',
-      sport: 'Soccer',
-      edition: 'Home',
-      description: 'Inspired by Gremio',
-      link: 'https://i.imgur.com/WYlxP1G.jpg'
-    }, {
-      name: 'DePaul Men\'s Club Soccer',
-      season: '2017-2018',
-      sport: 'Volleyball',
-      edition: 'Home & Away',
-      description: '',
-      link: 'https://i.imgur.com/eiWEEFe.png'
-    }]
-  };
-});
-// CONCATENATED MODULE: ./reducers/accomplishments-reducer.js
-/* harmony default export */ var accomplishments_reducer = (function () {
-  return {
-    accomplishments: [{
-      name: 'Mivas AA Gold 1st Place',
-      link: 'https://i.imgur.com/v8z79OW.jpg',
-      team: 'DePaul Men\'s Club Volleyball',
-      time: '2016-2017',
-      blurb: ''
-    }, {
-      name: '2019 CFRS Advanced Coed 7v7 Champions',
-      link: 'https://i.imgur.com/TrP3NzB.jpg',
-      team: 'Di Paolo FC',
-      time: 'Summer 2019',
-      blurb: ''
-    }, {
-      name: 'DePaul Google Day (2019) Challenge 1st Place',
-      link: 'https://i.imgur.com/EByPw2l.jpg',
-      team: 'Froyo',
-      time: 'Spring 2019',
-      blurb: ''
-    }, {
-      name: 'DePaul Fall Advanced Intramural Volleyball 1st Place',
-      link: 'https://i.imgur.com/SMqTI1M.jpg',
-      team: 'Karasuno Black Crows',
-      time: 'Fall 2019',
-      blurb: ''
-    }]
-  };
-});
-// CONCATENATED MODULE: ./reducers/GameState.js
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-const initialState = {
-  board: [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']],
-  turn: 0,
-  players: 2,
-  gameOver: false,
-  xWins: 0,
-  oWins: 0,
-  whosTurn: 'X'
-};
-/* harmony default export */ var GameState = (function (state = initialState, action) {
-  switch (action.type) {
-    case 'MAKE_MOVE':
-      if (state.gameOver === true) {
-        return state;
-      }
-
-      const newBoard = state.board;
-
-      if (newBoard[action.location.x][action.location.y] !== ' ') {
-        return state;
-      }
-
-      if (state.turn % 2 === 0) {
-        newBoard[action.location.x][action.location.y] = 'X';
-        return makeMove(state, newBoard, 'X');
-      }
-
-      newBoard[action.location.x][action.location.y] = '0';
-      return makeMove(state, newBoard, '0');
-
-    case 'DEBUG_INCREMENT_TURN':
-      return _objectSpread(_objectSpread({}, state), {}, {
-        turn: state.turn + 1
-      });
-
-    default:
-      return state;
-  }
-});
-
-function makeMove(state, newBoard, player) {
-  let score = state.xWins;
-  let gameOver = state.gameOver;
-
-  if (check(newBoard, player) === true) {
-    score += 1;
-    gameOver = true;
-  }
-
-  if (state.whosTurn === 'X') {
-    state.whosTurn = '0';
-  } else {
-    state.whosTurn = 'X';
-  }
-
-  if (player === 'X') {
-    return _objectSpread(_objectSpread({}, state), {}, {
-      turn: state.turn + 1,
-      board: newBoard,
-      gameOver: gameOver,
-      xWins: score
-    });
-  }
-
-  return _objectSpread(_objectSpread({}, state), {}, {
-    turn: state.turn + 1,
-    board: newBoard,
-    gameOver: gameOver,
-    oWins: score
-  });
-}
-
-function check(board, player) {
-  //check x 
-  for (let x = 0; x < 3; x++) {
-    if (board[x][0] === player && board[x][1] === player && board[x][2] === player) {
-      console.log('game over');
-      console.log(player + ' wins!');
-      return true;
-    }
-  } //check y
-
-
-  for (let y = 0; y < 3; y++) {
-    if (board[0][y] === player && board[1][y] === player && board[2][y] === player) {
-      console.log('game over');
-      console.log(player + ' wins!');
-      return true;
-    }
-  } //diagnal 1
-
-
-  if (board[0][0] === player && board[1][1] === player && board[2][2] === player) {
-    console.log('game over');
-    console.log(player + ' wins!');
-    return true;
-  } //diagnal 2
-
-
-  if (board[0][2] === player && board[1][1] === player && board[2][0] === player) {
-    console.log('game over!');
-    console.log(player + ' wins!');
-    return true;
-  } //if nothing 
-
-
-  return false;
-}
-// CONCATENATED MODULE: ./reducers/beer-reducer.js
-/* harmony default export */ var beer_reducer = (function () {
-  return [{
-    name: 'Asahi Super Dry',
-    type: 'Lager',
-    country: 'Japan',
-    state: '',
-    abv: 5.0
-  }, {
-    name: 'Sapporo Premium',
-    type: 'Lager',
-    country: 'Japan',
-    state: '',
-    abv: 4.9
-  }, {
-    name: 'Tecate',
-    type: 'Lager',
-    country: 'Mexico',
-    state: '',
-    abv: 4.5
-  }, {
-    name: 'Magner\'s',
-    type: 'Hard Cider',
-    country: 'Ireland',
-    state: '',
-    abv: 4.5
-  }, {
-    name: 'Dogfish Head SeaQuench',
-    type: 'Sour Ale',
-    country: 'USA',
-    state: 'Delaware',
-    abv: ''
-  }, {
-    name: '2 Towns Ciderhouse Pacific Pineapple',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'Oregon',
-    abv: 5.0
-  }, {
-    name: '2 Towns Ciderhouse Ginja Ninja',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'Oregon',
-    abv: 6.0
-  }, {
-    name: '2 Towns Ciderhouse Hard Apple Cider',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'Oregon',
-    abv: 6.0
-  }, {
-    name: 'New Belgium Fat Tire',
-    type: 'Amber Ale',
-    country: 'USA',
-    state: 'Colorado',
-    abv: 5.2
-  }, {
-    name: 'Blue Moon',
-    type: 'Wheat Beer',
-    country: 'USA',
-    state: 'Colorado',
-    abv: 5.4
-  }, {
-    name: 'Goose Island Green Line',
-    type: 'APA',
-    country: 'USA',
-    state: 'Illinois',
-    abv: 5.4
-  }, {
-    name: 'Ace Perry',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'California',
-    abv: 5.0
-  }, {
-    name: 'Right Bee Cider',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'Illinois',
-    abv: 6
-  }, {
-    name: 'Goose Island 312 Urban Wheat',
-    type: 'Wheat Beer',
-    country: 'USA',
-    state: 'Illinois',
-    abv: 4.2
-  }, {
-    name: 'Leinenkugel\'s Summer Shandy',
-    type: 'Fruit Beer',
-    country: 'USA',
-    state: 'Wisconsin',
-    abv: 4.2
-  }, {
-    name: 'Burnt City Facemelter',
-    type: 'IPA',
-    country: 'USA',
-    state: 'Illinois',
-    abv: 7.0
-  }, {
-    name: 'Maui Pineapple Mana',
-    type: 'Wheat Beer',
-    country: 'USA',
-    state: 'Hawaii',
-    abv: 5.5
-  }, {
-    name: 'Virtue Rose',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'Michigan',
-    abv: 6.7
-  }, {
-    name: 'Bavik Super Pils',
-    type: 'Pilsner',
-    country: 'Belgium',
-    state: '',
-    abv: 5.2
-  }, {
-    name: 'Rekorderlig Passionfruit',
-    type: 'Hard Cider',
-    country: 'Sweden',
-    state: '',
-    abv: 4.5
-  }, {
-    name: 'Owl\'s Brew Radler Wicked Watermelon',
-    type: 'Fruit Beer',
-    country: 'USA',
-    state: 'New York',
-    abv: 3.8
-  }, {
-    name: 'New Holland Dragon\'s Milk',
-    type: 'Stout',
-    country: 'USA',
-    state: 'Michigan',
-    abv: 11.0
-  }, {
-    name: 'Krombacher Pils',
-    type: 'Pilsner',
-    country: 'Germany',
-    state: '',
-    abv: 4.8
-  }, {
-    name: 'Amstel Light',
-    type: 'Lager',
-    country: 'Holland',
-    state: '',
-    abv: 3.5
-  }, {
-    name: 'Surly Furious',
-    type: 'IPA',
-    country: 'USA',
-    state: 'Minnesota',
-    abv: 6.7
-  }, {
-    name: 'Original Sin Black Widow',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'New York',
-    abv: 6.0
-  }, {
-    name: 'Forbidden Root Strawberry Basil',
-    type: 'Fruit Beer',
-    country: 'USA',
-    state: 'Illinois',
-    abv: 5.0
-  }, {
-    name: 'Carlsberg',
-    type: 'Lager',
-    country: 'Denmark',
-    state: '',
-    abv: 5.0
-  }, {
-    name: 'Labatt Blue',
-    type: 'Pilsner',
-    country: 'Canada',
-    state: '',
-    abv: 4.7
-  }, {
-    name: 'Corona Extra',
-    type: 'Lager',
-    country: 'Mexico',
-    state: '',
-    abv: 4.5
-  }, {
-    name: 'Modelo Especial',
-    type: 'Lager',
-    country: 'Mexico',
-    state: '',
-    abv: 4.4
-  }, {
-    name: 'Negra Modelo',
-    type: 'Lager',
-    country: 'Mexico',
-    state: '',
-    abv: 5.4
-  }, {
-    name: 'Guinness Draught',
-    type: 'Stout',
-    country: 'Ireland',
-    state: '',
-    abv: 4.2
-  }, {
-    name: 'Shock Top Belgian White',
-    type: 'Wheat Beer',
-    country: 'USA',
-    state: 'Missouri',
-    abv: 5.4
-  }, {
-    name: 'Michelob ULTRA',
-    type: 'Lager',
-    country: 'USA',
-    state: 'Missouri',
-    abv: 4.2
-  }, {
-    name: 'Heineken',
-    type: 'Lager',
-    country: 'Holland',
-    state: '',
-    abv: 5.0
-  }, {
-    name: 'Ballast Point Grapefruit Sculpin',
-    type: 'IPA',
-    country: 'USA',
-    state: 'California',
-    abv: 7.0
-  }, {
-    name: 'Ballast Point Sour Wench',
-    type: 'Sour Ale',
-    country: 'USA',
-    state: 'California',
-    abv: 7.0
-  }, {
-    name: 'Dos Equis Lager',
-    type: 'Pilsner',
-    country: 'Mexico',
-    state: '',
-    abv: 4.2
-  }, {
-    name: 'Bohemia',
-    type: 'Pilsner',
-    country: 'Mexico',
-    state: '',
-    abv: 4.7
-  }, {
-    name: 'Pabst Blue Ribbon',
-    type: 'Lager',
-    country: 'USA',
-    state: 'Wisconsin',
-    abv: 4.74
-  }, {
-    name: 'Coors Light',
-    type: 'Lager',
-    country: 'USA',
-    state: 'Colorado',
-    abv: 4.2
-  }, {
-    name: 'Rolling Rock',
-    type: 'Lager',
-    country: 'USA',
-    state: 'Missouri',
-    abv: 4.4
-  }, {
-    name: 'Kirin Ichiban',
-    type: 'Lager',
-    country: 'Japan',
-    state: '',
-    abv: 5.0
-  }, {
-    name: 'Sapporo Black',
-    type: 'Lager',
-    country: 'Japan',
-    state: '',
-    abv: 5.0
-  }, {
-    name: 'Lucky Buddha Enlightened Beer',
-    type: 'Lager',
-    country: 'Australia',
-    state: '',
-    abv: 4.8
-  }, {
-    name: 'Kloud Original Gravity',
-    type: 'Pilsner',
-    country: 'South Korea',
-    state: '',
-    abv: 5.0
-  }, {
-    name: 'Tsingtao Beer',
-    type: 'Lager',
-    country: 'China',
-    state: '',
-    abv: 4.0
-  }, {
-    name: 'Beck\'s',
-    type: 'Pilsner',
-    country: 'Germany',
-    state: '',
-    abv: 5.0
-  }, {
-    name: 'Almaza Pilsner Beer',
-    type: 'Pilsner',
-    country: 'Lebanon',
-    state: '',
-    abv: 4.2
-  }, {
-    name: 'Stiegl Grapefruit Radler',
-    type: 'Fruit Beer',
-    country: 'Austria',
-    state: '',
-    abv: 2.5
-  }, {
-    name: 'Stiegl Pils',
-    type: 'Lager',
-    country: 'Austria',
-    state: '',
-    abv: 4.9
-  }, {
-    name: 'Strongbow Gold Apple',
-    type: 'Hard Cider',
-    country: 'England',
-    state: '',
-    abv: 5.0
-  }, {
-    name: 'Stella Artois',
-    type: 'Pilsner',
-    country: 'Belgium',
-    state: '',
-    abv: 5.0
-  }, {
-    name: 'Stella Artois Cidre',
-    type: 'Hard Cider',
-    country: 'Belgium',
-    state: '',
-    abv: 4.5
-  }, {
-    name: 'JK\'s The Pair Perry Cider',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'Michigan',
-    abv: 5.5
-  }, {
-    name: 'Brooklyn Lager',
-    type: 'Lager',
-    country: 'USA',
-    state: 'New York',
-    abv: 5.2
-  }, {
-    name: 'Peroni Nastro Azzurro',
-    type: 'Lager',
-    country: 'Italy',
-    state: '',
-    abv: 5.1
-  }, {
-    name: 'Starcut Mosa',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'Michigan',
-    abv: 4.3
-  }, {
-    name: 'Goose Island Soleil',
-    type: 'Saison',
-    country: 'USA',
-    state: 'Illinois',
-    abv: 5.5
-  }, {
-    name: 'Goose Island 312 Dry-Hopped',
-    type: 'Wheat Beer',
-    country: 'USA',
-    state: 'Illinois',
-    abv: 4.2
-  }, {
-    name: 'Sonoma Cider The Hatchet Hard Apple Cider',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'California',
-    abv: 6.0
-  }, {
-    name: 'Sonoma Cider The Pitchfork Hard Pear Cider',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'California',
-    abv: 6.0
-  }, {
-    name: 'Angry Orchard Crisp Apple Cider',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'Massachusetts',
-    abv: 5.0
-  }, {
-    name: 'Angry Orchard Green Apple',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'Massachusetts',
-    abv: 5.0
-  }, {
-    name: 'Stem Cider Chile Guava',
-    type: 'Hard Cider',
-    country: 'USA',
-    state: 'Colorado',
-    abv: 5.7
-  }, {
-    name: 'Solemn Oath Snaggletooth Bandana',
-    type: 'IPA',
-    country: 'USA',
-    state: 'Illinois',
-    abv: 6.5
-  }, {
-    name: 'Miller Lite',
-    type: 'Lager',
-    country: 'USA',
-    state: 'Wisconsin',
-    abv: 4.17
-  }, {
-    name: 'Miller High Life',
-    type: 'Lager',
-    country: 'USA',
-    state: 'Wisconsin',
-    abv: 4.6
-  }, {
-    name: 'Bud Light',
-    type: 'Lager',
-    country: 'USA',
-    state: 'Missouri',
-    abv: 4.2
-  }, {
-    name: 'Taiwan Beer Sweet Touch Lychee',
-    type: 'Fruit Beer',
-    country: 'Taiwan',
-    state: '',
-    abv: 3.5
-  }, {
-    name: 'Natural Light',
-    type: 'Lager',
-    country: 'USA',
-    state: 'Missouri',
-    abv: 4.2
-  }, {
-    name: 'Pacifico',
-    type: 'Lager',
-    country: 'Mexico',
-    state: '',
-    abv: 4.5
-  }, {
-    name: 'Redd\'s Apple Ale',
-    type: 'Fruit Beer',
-    country: 'USA',
-    state: 'Georgia',
-    abv: 5.0
-  }, {
-    name: 'Lost Coast Tangerine Wheat',
-    type: 'Fruit Beer',
-    country: 'USA',
-    state: 'California',
-    abv: 5.5
-  }, {
-    name: 'Samuel Smith\'s Organic Cherry',
-    type: 'Fruit Beer',
-    country: 'England',
-    state: '',
-    abv: 5.1
-  }, {
-    name: 'Goose Island Honker\'s Ale',
-    type: 'English Bitter',
-    country: 'USA',
-    state: 'Illinois',
-    abv: 4.3
-  }, {
-    name: 'Schlafly Merry Berry',
-    type: 'Fruit Beer',
-    country: 'USA',
-    state: 'Missouri',
-    abv: 6.0
-  }, {
-    name: 'Short\'s Soft Parade Shandy',
-    type: 'Fruit Beer',
-    country: 'USA',
-    state: 'Michigan',
-    abv: 4.2
-  }, {
-    name: 'Boulevard Ginger Lemon Radler',
-    type: 'Fruit Beer',
-    country: 'USA',
-    state: 'Missouri',
-    abv: 4.1
-  }, {
-    name: 'Shiner Ruby Redbird',
-    type: 'Fruit Beer',
-    country: 'USA',
-    state: 'Texas',
-    abv: 4.1
-  }];
-});
-// CONCATENATED MODULE: ./reducers/index.js
-
-
-
-
-
-
-const allReducers = Object(external_redux_["combineReducers"])({
-  resumeReducer: resume_reducer,
-  gameState: GameState,
-  kitsReducer: kits_reducer,
-  accomplishmentsReducer: accomplishments_reducer,
-  beerReducer: beer_reducer
-});
-/* harmony default export */ var reducers = (allReducers);
-// CONCATENATED MODULE: ./pages/_app.js
-var __jsx = external_react_default.a.createElement;
-
- // import withRedux from 'next-redux-wrapper'; // this replaces all calls to it in containers
-// import App from 'next/app';
-
- // import ReactDOM from 'react-dom';
-
-
-
-
-const store = Object(external_redux_["createStore"])(reducers);
-function MyApp({
-  Component,
-  pageProps
-}) {
-  return __jsx(external_react_redux_["Provider"], {
-    store: store
-  }, __jsx(Component, pageProps));
-} // export default withRedux(createStore, { debug: shouldShowDebugLogs })(class MyApp extends App {
-//   render() {
-//     const { Component, pageProps, store } = this.props;
-//     return (
-//       <Provider store={store}>
-//         <Component {...pageProps} />
-//       </Provider>
-//     );
-//   }
-// });
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return MyApp; });\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_resume_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/resume.css */ \"./styles/resume.css\");\n/* harmony import */ var _styles_resume_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_resume_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! redux */ \"redux\");\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _reducers__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../reducers */ \"./reducers/index.js\");\nvar _jsxFileName = \"/Users/michaeldipaolo/Desktop/michaeldipaolo.com/my-next/pages/_app.js\";\nvar __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;\n\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\n\n // import withRedux from 'next-redux-wrapper'; // this replaces all calls to it in containers\n// import App from 'next/app';\n\n // import ReactDOM from 'react-dom';\n\n\n\n\nconst store = Object(redux__WEBPACK_IMPORTED_MODULE_4__[\"createStore\"])(_reducers__WEBPACK_IMPORTED_MODULE_5__[\"default\"]);\nfunction MyApp({\n  Component,\n  pageProps\n}) {\n  return __jsx(react_redux__WEBPACK_IMPORTED_MODULE_3__[\"Provider\"], {\n    store: store,\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 16,\n      columnNumber: 5\n    }\n  }, __jsx(Component, _extends({}, pageProps, {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 17,\n      columnNumber: 7\n    }\n  })));\n} // export default withRedux(createStore, { debug: shouldShowDebugLogs })(class MyApp extends App {\n//   render() {\n//     const { Component, pageProps, store } = this.props;\n//     return (\n//       <Provider store={store}>\n//         <Component {...pageProps} />\n//       </Provider>\n//     );\n//   }\n// });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9fYXBwLmpzP2Q1MzAiXSwibmFtZXMiOlsic3RvcmUiLCJjcmVhdGVTdG9yZSIsImFsbFJlZHVjZXJzIiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0NBR0E7QUFDQTs7Q0FFQTs7QUFDQTtBQUNBO0FBQ0E7QUFFQSxNQUFNQSxLQUFLLEdBQUdDLHlEQUFXLENBQUNDLGlEQUFELENBQXpCO0FBRWUsU0FBU0MsS0FBVCxDQUFlO0FBQUVDLFdBQUY7QUFBYUM7QUFBYixDQUFmLEVBQXlDO0FBQ3RELFNBQ0UsTUFBQyxvREFBRDtBQUFVLFNBQUssRUFBRUwsS0FBakI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxLQUNFLE1BQUMsU0FBRCxlQUFlSyxTQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsS0FERixDQURGO0FBS0QsQyxDQUVEO0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUVBIiwiZmlsZSI6Ii4vcGFnZXMvX2FwcC5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAnYm9vdHN0cmFwL2Rpc3QvY3NzL2Jvb3RzdHJhcC5taW4uY3NzJztcbmltcG9ydCAnLi4vc3R5bGVzL3Jlc3VtZS5jc3MnO1xuXG4vLyBpbXBvcnQgd2l0aFJlZHV4IGZyb20gJ25leHQtcmVkdXgtd3JhcHBlcic7IC8vIHRoaXMgcmVwbGFjZXMgYWxsIGNhbGxzIHRvIGl0IGluIGNvbnRhaW5lcnNcbi8vIGltcG9ydCBBcHAgZnJvbSAnbmV4dC9hcHAnO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0Jztcbi8vIGltcG9ydCBSZWFjdERPTSBmcm9tICdyZWFjdC1kb20nO1xuaW1wb3J0IHsgUHJvdmlkZXIgfSBmcm9tICdyZWFjdC1yZWR1eCc7XG5pbXBvcnQgeyBjcmVhdGVTdG9yZSB9IGZyb20gJ3JlZHV4JztcbmltcG9ydCBhbGxSZWR1Y2VycyBmcm9tICcuLi9yZWR1Y2Vycyc7XG5cbmNvbnN0IHN0b3JlID0gY3JlYXRlU3RvcmUoYWxsUmVkdWNlcnMpO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pIHtcbiAgcmV0dXJuKFxuICAgIDxQcm92aWRlciBzdG9yZT17c3RvcmV9PlxuICAgICAgPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxuICAgIDwvUHJvdmlkZXI+XG4gICk7IFxufVxuXG4vLyBleHBvcnQgZGVmYXVsdCB3aXRoUmVkdXgoY3JlYXRlU3RvcmUsIHsgZGVidWc6IHNob3VsZFNob3dEZWJ1Z0xvZ3MgfSkoY2xhc3MgTXlBcHAgZXh0ZW5kcyBBcHAge1xuXG4vLyAgIHJlbmRlcigpIHtcbi8vICAgICBjb25zdCB7IENvbXBvbmVudCwgcGFnZVByb3BzLCBzdG9yZSB9ID0gdGhpcy5wcm9wcztcbi8vICAgICByZXR1cm4gKFxuLy8gICAgICAgPFByb3ZpZGVyIHN0b3JlPXtzdG9yZX0+XG4vLyAgICAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cbi8vICAgICAgIDwvUHJvdmlkZXI+XG4vLyAgICAgKTtcbi8vICAgfVxuICBcbi8vIH0pOyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
 /***/ }),
 
-/***/ "cDcd":
-/***/ (function(module, exports) {
+/***/ "./reducers/GameState.js":
+/*!*******************************!*\
+  !*** ./reducers/GameState.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "h74D":
-/***/ (function(module, exports) {
-
-module.exports = require("react-redux");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nconst initialState = {\n  board: [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']],\n  turn: 0,\n  players: 2,\n  gameOver: false,\n  xWins: 0,\n  oWins: 0,\n  whosTurn: 'X'\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (state = initialState, action) {\n  switch (action.type) {\n    case 'MAKE_MOVE':\n      if (state.gameOver === true) {\n        return state;\n      }\n\n      const newBoard = state.board;\n\n      if (newBoard[action.location.x][action.location.y] !== ' ') {\n        return state;\n      }\n\n      if (state.turn % 2 === 0) {\n        newBoard[action.location.x][action.location.y] = 'X';\n        return makeMove(state, newBoard, 'X');\n      }\n\n      newBoard[action.location.x][action.location.y] = '0';\n      return makeMove(state, newBoard, '0');\n\n    case 'DEBUG_INCREMENT_TURN':\n      return _objectSpread(_objectSpread({}, state), {}, {\n        turn: state.turn + 1\n      });\n\n    default:\n      return state;\n  }\n});\n\nfunction makeMove(state, newBoard, player) {\n  let score = state.xWins;\n  let gameOver = state.gameOver;\n\n  if (check(newBoard, player) === true) {\n    score += 1;\n    gameOver = true;\n  }\n\n  if (state.whosTurn === 'X') {\n    state.whosTurn = '0';\n  } else {\n    state.whosTurn = 'X';\n  }\n\n  if (player === 'X') {\n    return _objectSpread(_objectSpread({}, state), {}, {\n      turn: state.turn + 1,\n      board: newBoard,\n      gameOver: gameOver,\n      xWins: score\n    });\n  }\n\n  return _objectSpread(_objectSpread({}, state), {}, {\n    turn: state.turn + 1,\n    board: newBoard,\n    gameOver: gameOver,\n    oWins: score\n  });\n}\n\nfunction check(board, player) {\n  //check x \n  for (let x = 0; x < 3; x++) {\n    if (board[x][0] === player && board[x][1] === player && board[x][2] === player) {\n      console.log('game over');\n      console.log(player + ' wins!');\n      return true;\n    }\n  } //check y\n\n\n  for (let y = 0; y < 3; y++) {\n    if (board[0][y] === player && board[1][y] === player && board[2][y] === player) {\n      console.log('game over');\n      console.log(player + ' wins!');\n      return true;\n    }\n  } //diagnal 1\n\n\n  if (board[0][0] === player && board[1][1] === player && board[2][2] === player) {\n    console.log('game over');\n    console.log(player + ' wins!');\n    return true;\n  } //diagnal 2\n\n\n  if (board[0][2] === player && board[1][1] === player && board[2][0] === player) {\n    console.log('game over!');\n    console.log(player + ' wins!');\n    return true;\n  } //if nothing \n\n\n  return false;\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1Y2Vycy9HYW1lU3RhdGUuanM/NTc2ZSJdLCJuYW1lcyI6WyJpbml0aWFsU3RhdGUiLCJib2FyZCIsInR1cm4iLCJwbGF5ZXJzIiwiZ2FtZU92ZXIiLCJ4V2lucyIsIm9XaW5zIiwid2hvc1R1cm4iLCJzdGF0ZSIsImFjdGlvbiIsInR5cGUiLCJuZXdCb2FyZCIsImxvY2F0aW9uIiwieCIsInkiLCJtYWtlTW92ZSIsInBsYXllciIsInNjb3JlIiwiY2hlY2siLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUEsTUFBTUEsWUFBWSxHQUFHO0FBQ25CQyxPQUFLLEVBQ0gsQ0FDRSxDQUFFLEdBQUYsRUFBUSxHQUFSLEVBQWMsR0FBZCxDQURGLEVBRUUsQ0FBRSxHQUFGLEVBQVEsR0FBUixFQUFjLEdBQWQsQ0FGRixFQUdFLENBQUUsR0FBRixFQUFRLEdBQVIsRUFBYyxHQUFkLENBSEYsQ0FGaUI7QUFPbkJDLE1BQUksRUFBRSxDQVBhO0FBUW5CQyxTQUFPLEVBQUUsQ0FSVTtBQVNuQkMsVUFBUSxFQUFFLEtBVFM7QUFVbkJDLE9BQUssRUFBRSxDQVZZO0FBV25CQyxPQUFLLEVBQUUsQ0FYWTtBQVluQkMsVUFBUSxFQUFFO0FBWlMsQ0FBckI7QUFlZSx5RUFBU0MsS0FBSyxHQUFHUixZQUFqQixFQUErQlMsTUFBL0IsRUFBdUM7QUFFcEQsVUFBT0EsTUFBTSxDQUFDQyxJQUFkO0FBRUEsU0FBSyxXQUFMO0FBRUUsVUFBR0YsS0FBSyxDQUFDSixRQUFOLEtBQW1CLElBQXRCLEVBQTJCO0FBQ3pCLGVBQU9JLEtBQVA7QUFDRDs7QUFFRCxZQUFNRyxRQUFRLEdBQUdILEtBQUssQ0FBQ1AsS0FBdkI7O0FBQ0EsVUFBR1UsUUFBUSxDQUFDRixNQUFNLENBQUNHLFFBQVAsQ0FBZ0JDLENBQWpCLENBQVIsQ0FBNEJKLE1BQU0sQ0FBQ0csUUFBUCxDQUFnQkUsQ0FBNUMsTUFBbUQsR0FBdEQsRUFBMEQ7QUFDeEQsZUFB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Q0FBU2EsQ0FBVCxNQUFnQkUsTUFIeEIsRUFJQTtBQUNFRyxhQUFPLENBQUNDLEdBQVIsQ0FBWSxXQUFaO0FBQ0FELGFBQU8sQ0FBQ0MsR0FBUixDQUFZSixNQUFNLEdBQUcsUUFBckI7QUFDQSxhQUFPLElBQVA7QUFDRDtBQUNGLEdBMUIwQixDQTRCM0I7OztBQUNBLE1BQ0VmLEtBQUssQ0FBQyxDQUFELENBQUwsQ0FBUyxDQUFULE1BQWdCZSxNQUFoQixJQUNJZixLQUFLLENBQUMsQ0FBRCxDQUFMLENBQVMsQ0FBVCxNQUFnQmUsTUFEcEIsSUFFSWYsS0FBSyxDQUFDLENBQUQsQ0FBTCxDQUFTLENBQVQsTUFBZ0JlLE1BSHRCLEVBSUE7QUFDRUcsV0FBTyxDQUFDQyxHQUFSLENBQVksV0FBWjtBQUNBRCxXQUFPLENBQUNDLEdBQVIsQ0FBWUosTUFBTSxHQUFHLFFBQXJCO0FBQ0EsV0FBTyxJQUFQO0FBQ0QsR0FyQzBCLENBdUMzQjs7O0FBQ0EsTUFDRWYsS0FBSyxDQUFDLENBQUQsQ0FBTCxDQUFTLENBQVQsTUFBZ0JlLE1BQWhCLElBQ0lmLEtBQUssQ0FBQyxDQUFELENBQUwsQ0FBUyxDQUFULE1BQWdCZSxNQURwQixJQUVJZixLQUFLLENBQUMsQ0FBRCxDQUFMLENBQVMsQ0FBVCxNQUFnQmUsTUFIdEIsRUFJQTtBQUNFRyxXQUFPLENBQUNDLEdBQVIsQ0FBWSxZQUFaO0FBQ0FELFdBQU8sQ0FBQ0MsR0FBUixDQUFZSixNQUFNLEdBQUcsUUFBckI7QUFDQSxXQUFPLElBQVA7QUFDRCxHQWhEMEIsQ0FrRDNCOzs7QUFDQSxTQUFPLEtBQVA7QUFDRCIsImZpbGUiOiIuL3JlZHVjZXJzL0dhbWVTdGF0ZS5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IGluaXRpYWxTdGF0ZSA9IHsgIFxyXG4gIGJvYXJkOiBcclxuICAgIFtcclxuICAgICAgWyAnICcgLCAnICcgLCAnICcgXSxcclxuICAgICAgWyAnICcgLCAnICcgLCAnICcgXSxcclxuICAgICAgWyAnICcgLCAnICcgLCAnICcgXSxcclxuICAgIF0sXHJcbiAgdHVybjogMCxcclxuICBwbGF5ZXJzOiAyLFxyXG4gIGdhbWVPdmVyOiBmYWxzZSxcclxuICB4V2luczogMCxcclxuICBvV2luczogMCxcclxuICB3aG9zVHVybjogJ1gnLCBcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uKHN0YXRlID0gaW5pdGlhbFN0YXRlLCBhY3Rpb24pIHtcclxuXHJcbiAgc3dpdGNoKGFjdGlvbi50eXBlKXtcclxuICAgICAgICBcclxuICBjYXNlICdNQUtFX01PVkUnOlxyXG5cclxuICAgIGlmKHN0YXRlLmdhbWVPdmVyID09PSB0cnVlKXtcclxuICAgICAgcmV0dXJuIHN0YXRlO1xyXG4gICAgfVxyXG4gICAgICAgICAgICBcclxuICAgIGNvbnN0IG5ld0JvYXJkID0gc3RhdGUuYm9hcmQ7XHJcbiAgICBpZihuZXdCb2FyZFthY3Rpb24ubG9jYXRpb24ueF1bYWN0aW9uLmxvY2F0aW9uLnldICE9PSAnICcpe1xyXG4gICAgICByZXR1cm4gc3RhdGU7XHJcbiAgICB9XHJcbiAgICAgICAgICAgICAgICBcclxuICAgIGlmKHN0YXRlLnR1cm4lMiA9PT0gMCl7XHJcbiAgICAgIG5ld0JvYXJkW2FjdGlvbi5sb2NhdGlvbi54XVthY3Rpb24ubG9jYXRpb24ueV0gPSAnWCc7ICBcclxuICAgICAgcmV0dXJuIG1ha2VNb3ZlKHN0YXRlLCBuZXdCb2FyZCwgJ1gnKTtcclxuICAgIH1cclxuICAgICAgICAgICAgICAgICAgICBcclxuICAgIG5ld0JvYXJkW2FjdGlvbi5sb2NhdGlvbi54XVthY3Rpb24ubG9jYXRpb24ueV0gPSAnMCc7IFxyXG4gICAgcmV0dXJuIG1ha2VNb3ZlKHN0YXRlLCBuZXdCb2FyZCwgJzAnKTtcclxuICAgICAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIFxyXG5cclxuXHJcbiAgY2FzZSAnREVCVUdfSU5DUkVNRU5UX1RVUk4nOlxyXG4gICAgcmV0dXJuIHtcclxuICAgICAgLi4uc3RhdGUsXHJcbiAgICAgIHR1cm46IHN0YXRlLnR1cm4gKyAxLFxyXG4gICAgfTtcclxuXHJcbiAgZGVmYXVsdDpcclxuICAgIHJldHVybiBzdGF0ZTsgICBcclxuICB9XHJcbiAgICBcclxufVxyXG5cclxuXHJcbmZ1bmN0aW9uIG1ha2VNb3ZlKHN0YXRlLCBuZXdCb2FyZCwgcGxheWVyKXtcclxuICBsZXQgc2NvcmUgPSBzdGF0ZS54V2lucztcclxuICBsZXQgZ2FtZU92ZXIgPSBzdGF0ZS5nYW1lT3ZlcjtcclxuICAgIFxyXG4gIGlmKGNoZWNrKG5ld0JvYXJkLCBwbGF5ZXIpID09PSB0cnVlKSB7XHJcbiAgICBzY29yZSArPTE7XHJcbiAgICBnYW1lT3ZlciA9IHRydWU7XHJcbiAgfVxyXG5cclxuICBpZihzdGF0ZS53aG9zVHVybiA9PT0gJ1gnKXtcclxuICAgIHN0YXRlLndob3NUdXJuID0gJzAnO1xyXG4gIH1cclxuICBlbHNle1xyXG4gICAgc3RhdGUud2hvc1R1cm4gPSAnWCc7XHJcbiAgfVxyXG5cclxuICBpZihwbGF5ZXIgPT09ICdYJyl7XHJcbiAgICByZXR1cm4ge1xyXG4gICAgICAuLi5zdGF0ZSxcclxuICAgICAgdHVybjogc3RhdGUudHVybiArIDEsXHJcbiAgICAgIGJvYXJkOiBuZXdCb2FyZCxcclxuICAgICAgZ2FtZU92ZXI6IGdhbWVPdmVyLFxyXG4gICAgICB4V2luczogc2NvcmUsXHJcbiAgICB9O1xyXG4gIH1cclxuICAgIFxyXG4gIHJldHVybiB7XHJcbiAgICAuLi5zdGF0ZSxcclxuICAgIHR1cm46IHN0YXRlLnR1cm4gKyAxLFxyXG4gICAgYm9hcmQ6IG5ld0JvYXJkLFxyXG4gICAgZ2FtZU92ZXI6IGdhbWVPdmVyLFxyXG4gICAgb1dpbnM6IHNjb3JlLFxyXG4gIH07XHJcbiAgICBcclxuXHJcbiAgICBcclxufVxyXG5cclxuXHJcbmZ1bmN0aW9uIGNoZWNrKGJvYXJkLCBwbGF5ZXIpe1xyXG5cclxuICAvL2NoZWNrIHggXHJcbiAgZm9yIChsZXQgeCA9IDA7IHggPDM7IHgrKyl7XHJcbiAgICBpZihcclxuICAgICAgYm9hcmRbeF1bMF0gPT09IHBsYXllciAmJlxyXG4gICAgICAgICAgICBib2FyZFt4XVsxXSA9PT0gcGxheWVyICYmXHJcbiAgICAgICAgICAgIGJvYXJkW3hdWzJdID09PSBwbGF5ZXIgKVxyXG4gICAge1xyXG4gICAgICBjb25zb2xlLmxvZygnZ2FtZSBvdmVyJyk7XHJcbiAgICAgIGNvbnNvbGUubG9nKHBsYXllciArICcgd2lucyEnKTtcclxuICAgICAgcmV0dXJuIHRydWU7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAvL2NoZWNrIHlcclxuICBmb3IgKGxldCB5ID0gMDsgeSA8MzsgeSsrKXtcclxuICAgIGlmKFxyXG4gICAgICBib2FyZFswXVt5XSA9PT0gcGxheWVyICYmXHJcbiAgICAgICAgICAgIGJvYXJkWzFdW3ldID09PSBwbGF5ZXIgJiZcclxuICAgICAgICAgICAgYm9hcmRbMl1beV0gPT09IHBsYXllciApXHJcbiAgICB7XHJcbiAgICAgIGNvbnNvbGUubG9nKCdnYW1lIG92ZXInKTtcclxuICAgICAgY29uc29sZS5sb2cocGxheWVyICsgJyB3aW5zIScpO1xyXG4gICAgICByZXR1cm4gdHJ1ZTtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIC8vZGlhZ25hbCAxXHJcbiAgaWYoXHJcbiAgICBib2FyZFswXVswXSA9PT0gcGxheWVyICYmXHJcbiAgICAgICAgYm9hcmRbMV1bMV0gPT09IHBsYXllciAmJlxyXG4gICAgICAgIGJvYXJkWzJdWzJdID09PSBwbGF5ZXIgKVxyXG4gIHtcclxuICAgIGNvbnNvbGUubG9nKCdnYW1lIG92ZXInKTtcclxuICAgIGNvbnNvbGUubG9nKHBsYXllciArICcgd2lucyEnKTtcclxuICAgIHJldHVybiB0cnVlO1xyXG4gIH1cclxuXHJcbiAgLy9kaWFnbmFsIDJcclxuICBpZihcclxuICAgIGJvYXJkWzBdWzJdID09PSBwbGF5ZXIgJiZcclxuICAgICAgICBib2FyZFsxXVsxXSA9PT0gcGxheWVyICYmXHJcbiAgICAgICAgYm9hcmRbMl1bMF0gPT09IHBsYXllciApXHJcbiAge1xyXG4gICAgY29uc29sZS5sb2coJ2dhbWUgb3ZlciEnKTtcclxuICAgIGNvbnNvbGUubG9nKHBsYXllciArICcgd2lucyEnKTtcclxuICAgIHJldHVybiB0cnVlO1xyXG4gIH1cclxuXHJcbiAgLy9pZiBub3RoaW5nIFxyXG4gIHJldHVybiBmYWxzZTtcclxufSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./reducers/GameState.js\n");
 
 /***/ }),
 
-/***/ "q4sD":
+/***/ "./reducers/accomplishments-reducer.js":
+/*!*********************************************!*\
+  !*** ./reducers/accomplishments-reducer.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  return {\n    accomplishments: [{\n      name: 'Mivas AA Gold 1st Place',\n      link: 'https://i.imgur.com/v8z79OW.jpg',\n      team: 'DePaul Men\\'s Club Volleyball',\n      time: '2016-2017',\n      blurb: ''\n    }, {\n      name: '2019 CFRS Advanced Coed 7v7 Champions',\n      link: 'https://i.imgur.com/TrP3NzB.jpg',\n      team: 'Di Paolo FC',\n      time: 'Summer 2019',\n      blurb: ''\n    }, {\n      name: 'DePaul Google Day (2019) Challenge 1st Place',\n      link: 'https://i.imgur.com/EByPw2l.jpg',\n      team: 'Froyo',\n      time: 'Spring 2019',\n      blurb: ''\n    }, {\n      name: 'DePaul Fall Advanced Intramural Volleyball 1st Place',\n      link: 'https://i.imgur.com/SMqTI1M.jpg',\n      team: 'Karasuno Black Crows',\n      time: 'Fall 2019',\n      blurb: ''\n    }]\n  };\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1Y2Vycy9hY2NvbXBsaXNobWVudHMtcmVkdWNlci5qcz85ZGM1Il0sIm5hbWVzIjpbImFjY29tcGxpc2htZW50cyIsIm5hbWUiLCJsaW5rIiwidGVhbSIsInRpbWUiLCJibHVyYiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBZSwyRUFBVztBQUN4QixTQUFPO0FBQ0xBLG1CQUFlLEVBQUUsQ0FDZjtBQUNFQyxVQUFJLEVBQUUseUJBRFI7QUFFRUMsVUFBSSxFQUFFLGlDQUZSO0FBR0VDLFVBQUksRUFBRSwrQkFIUjtBQUlFQyxVQUFJLEVBQUUsV0FKUjtBQUtFQyxXQUFLLEVBQUU7QUFMVCxLQURlLEVBUWY7QUFDRUosVUFBSSxFQUFFLHVDQURSO0FBRUVDLFVBQUksRUFBRSxpQ0FGUjtBQUdFQyxVQUFJLEVBQUUsYUFIUjtBQUlFQyxVQUFJLEVBQUUsYUFKUjtBQUtFQyxXQUFLLEVBQUU7QUFMVCxLQVJlLEVBZWY7QUFDRUosVUFBSSxFQUFFLDhDQURSO0FBRUVDLFVBQUksRUFBRSxpQ0FGUjtBQUdFQyxVQUFJLEVBQUUsT0FIUjtBQUlFQyxVQUFJLEVBQUUsYUFKUjtBQUtFQyxXQUFLLEVBQUU7QUFMVCxLQWZlLEVBc0JmO0FBQ0VKLFVBQUksRUFBRSxzREFEUjtBQUVFQyxVQUFJLEVBQUUsaUNBRlI7QUFHRUMsVUFBSSxFQUFFLHNCQUhSO0FBSUVDLFVBQUksRUFBRSxXQUpSO0FBS0VDLFdBQUssRUFBRTtBQUxULEtBdEJlO0FBRFosR0FBUDtBQWlDRCxDIiwiZmlsZSI6Ii4vcmVkdWNlcnMvYWNjb21wbGlzaG1lbnRzLXJlZHVjZXIuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBmdW5jdGlvbigpIHtcbiAgcmV0dXJuIHtcbiAgICBhY2NvbXBsaXNobWVudHM6IFtcbiAgICAgIHtcbiAgICAgICAgbmFtZTogJ01pdmFzIEFBIEdvbGQgMXN0IFBsYWNlJyxcbiAgICAgICAgbGluazogJ2h0dHBzOi8vaS5pbWd1ci5jb20vdjh6NzlPVy5qcGcnLFxuICAgICAgICB0ZWFtOiAnRGVQYXVsIE1lblxcJ3MgQ2x1YiBWb2xsZXliYWxsJyxcbiAgICAgICAgdGltZTogJzIwMTYtMjAxNycsXG4gICAgICAgIGJsdXJiOiAnJyxcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIG5hbWU6ICcyMDE5IENGUlMgQWR2YW5jZWQgQ29lZCA3djcgQ2hhbXBpb25zJyxcbiAgICAgICAgbGluazogJ2h0dHBzOi8vaS5pbWd1ci5jb20vVHJQM056Qi5qcGcnLFxuICAgICAgICB0ZWFtOiAnRGkgUGFvbG8gRkMnLFxuICAgICAgICB0aW1lOiAnU3VtbWVyIDIwMTknLFxuICAgICAgICBibHVyYjogJycsXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICBuYW1lOiAnRGVQYXVsIEdvb2dsZSBEYXkgKDIwMTkpIENoYWxsZW5nZSAxc3QgUGxhY2UnLFxuICAgICAgICBsaW5rOiAnaHR0cHM6Ly9pLmltZ3VyLmNvbS9FQnlQdzJsLmpwZycsXG4gICAgICAgIHRlYW06ICdGcm95bycsXG4gICAgICAgIHRpbWU6ICdTcHJpbmcgMjAxOScsXG4gICAgICAgIGJsdXJiOiAnJyxcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIG5hbWU6ICdEZVBhdWwgRmFsbCBBZHZhbmNlZCBJbnRyYW11cmFsIFZvbGxleWJhbGwgMXN0IFBsYWNlJyxcbiAgICAgICAgbGluazogJ2h0dHBzOi8vaS5pbWd1ci5jb20vU01xVEkxTS5qcGcnLFxuICAgICAgICB0ZWFtOiAnS2FyYXN1bm8gQmxhY2sgQ3Jvd3MnLFxuICAgICAgICB0aW1lOiAnRmFsbCAyMDE5JyxcbiAgICAgICAgYmx1cmI6ICcnLFxuICAgICAgfSxcblxuICAgIF0sXG4gIH07XG59Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./reducers/accomplishments-reducer.js\n");
+
+/***/ }),
+
+/***/ "./reducers/beer-reducer.js":
+/*!**********************************!*\
+  !*** ./reducers/beer-reducer.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  return [{\n    name: 'Asahi Super Dry',\n    type: 'Lager',\n    country: 'Japan',\n    state: '',\n    abv: 5.0\n  }, {\n    name: 'Sapporo Premium',\n    type: 'Lager',\n    country: 'Japan',\n    state: '',\n    abv: 4.9\n  }, {\n    name: 'Tecate',\n    type: 'Lager',\n    country: 'Mexico',\n    state: '',\n    abv: 4.5\n  }, {\n    name: 'Magner\\'s',\n    type: 'Hard Cider',\n    country: 'Ireland',\n    state: '',\n    abv: 4.5\n  }, {\n    name: 'Dogfish Head SeaQuench',\n    type: 'Sour Ale',\n    country: 'USA',\n    state: 'Delaware',\n    abv: ''\n  }, {\n    name: '2 Towns Ciderhouse Pacific Pineapple',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'Oregon',\n    abv: 5.0\n  }, {\n    name: '2 Towns Ciderhouse Ginja Ninja',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'Oregon',\n    abv: 6.0\n  }, {\n    name: '2 Towns Ciderhouse Hard Apple Cider',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'Oregon',\n    abv: 6.0\n  }, {\n    name: 'New Belgium Fat Tire',\n    type: 'Amber Ale',\n    country: 'USA',\n    state: 'Colorado',\n    abv: 5.2\n  }, {\n    name: 'Blue Moon',\n    type: 'Wheat Beer',\n    country: 'USA',\n    state: 'Colorado',\n    abv: 5.4\n  }, {\n    name: 'Goose Island Green Line',\n    type: 'APA',\n    country: 'USA',\n    state: 'Illinois',\n    abv: 5.4\n  }, {\n    name: 'Ace Perry',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'California',\n    abv: 5.0\n  }, {\n    name: 'Right Bee Cider',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'Illinois',\n    abv: 6\n  }, {\n    name: 'Goose Island 312 Urban Wheat',\n    type: 'Wheat Beer',\n    country: 'USA',\n    state: 'Illinois',\n    abv: 4.2\n  }, {\n    name: 'Leinenkugel\\'s Summer Shandy',\n    type: 'Fruit Beer',\n    country: 'USA',\n    state: 'Wisconsin',\n    abv: 4.2\n  }, {\n    name: 'Burnt City Facemelter',\n    type: 'IPA',\n    country: 'USA',\n    state: 'Illinois',\n    abv: 7.0\n  }, {\n    name: 'Maui Pineapple Mana',\n    type: 'Wheat Beer',\n    country: 'USA',\n    state: 'Hawaii',\n    abv: 5.5\n  }, {\n    name: 'Virtue Rose',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'Michigan',\n    abv: 6.7\n  }, {\n    name: 'Bavik Super Pils',\n    type: 'Pilsner',\n    country: 'Belgium',\n    state: '',\n    abv: 5.2\n  }, {\n    name: 'Rekorderlig Passionfruit',\n    type: 'Hard Cider',\n    country: 'Sweden',\n    state: '',\n    abv: 4.5\n  }, {\n    name: 'Owl\\'s Brew Radler Wicked Watermelon',\n    type: 'Fruit Beer',\n    country: 'USA',\n    state: 'New York',\n    abv: 3.8\n  }, {\n    name: 'New Holland Dragon\\'s Milk',\n    type: 'Stout',\n    country: 'USA',\n    state: 'Michigan',\n    abv: 11.0\n  }, {\n    name: 'Krombacher Pils',\n    type: 'Pilsner',\n    country: 'Germany',\n    state: '',\n    abv: 4.8\n  }, {\n    name: 'Amstel Light',\n    type: 'Lager',\n    country: 'Holland',\n    state: '',\n    abv: 3.5\n  }, {\n    name: 'Surly Furious',\n    type: 'IPA',\n    country: 'USA',\n    state: 'Minnesota',\n    abv: 6.7\n  }, {\n    name: 'Original Sin Black Widow',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'New York',\n    abv: 6.0\n  }, {\n    name: 'Forbidden Root Strawberry Basil',\n    type: 'Fruit Beer',\n    country: 'USA',\n    state: 'Illinois',\n    abv: 5.0\n  }, {\n    name: 'Carlsberg',\n    type: 'Lager',\n    country: 'Denmark',\n    state: '',\n    abv: 5.0\n  }, {\n    name: 'Labatt Blue',\n    type: 'Pilsner',\n    country: 'Canada',\n    state: '',\n    abv: 4.7\n  }, {\n    name: 'Corona Extra',\n    type: 'Lager',\n    country: 'Mexico',\n    state: '',\n    abv: 4.5\n  }, {\n    name: 'Modelo Especial',\n    type: 'Lager',\n    country: 'Mexico',\n    state: '',\n    abv: 4.4\n  }, {\n    name: 'Negra Modelo',\n    type: 'Lager',\n    country: 'Mexico',\n    state: '',\n    abv: 5.4\n  }, {\n    name: 'Guinness Draught',\n    type: 'Stout',\n    country: 'Ireland',\n    state: '',\n    abv: 4.2\n  }, {\n    name: 'Shock Top Belgian White',\n    type: 'Wheat Beer',\n    country: 'USA',\n    state: 'Missouri',\n    abv: 5.4\n  }, {\n    name: 'Michelob ULTRA',\n    type: 'Lager',\n    country: 'USA',\n    state: 'Missouri',\n    abv: 4.2\n  }, {\n    name: 'Heineken',\n    type: 'Lager',\n    country: 'Holland',\n    state: '',\n    abv: 5.0\n  }, {\n    name: 'Ballast Point Grapefruit Sculpin',\n    type: 'IPA',\n    country: 'USA',\n    state: 'California',\n    abv: 7.0\n  }, {\n    name: 'Ballast Point Sour Wench',\n    type: 'Sour Ale',\n    country: 'USA',\n    state: 'California',\n    abv: 7.0\n  }, {\n    name: 'Dos Equis Lager',\n    type: 'Pilsner',\n    country: 'Mexico',\n    state: '',\n    abv: 4.2\n  }, {\n    name: 'Bohemia',\n    type: 'Pilsner',\n    country: 'Mexico',\n    state: '',\n    abv: 4.7\n  }, {\n    name: 'Pabst Blue Ribbon',\n    type: 'Lager',\n    country: 'USA',\n    state: 'Wisconsin',\n    abv: 4.74\n  }, {\n    name: 'Coors Light',\n    type: 'Lager',\n    country: 'USA',\n    state: 'Colorado',\n    abv: 4.2\n  }, {\n    name: 'Rolling Rock',\n    type: 'Lager',\n    country: 'USA',\n    state: 'Missouri',\n    abv: 4.4\n  }, {\n    name: 'Kirin Ichiban',\n    type: 'Lager',\n    country: 'Japan',\n    state: '',\n    abv: 5.0\n  }, {\n    name: 'Sapporo Black',\n    type: 'Lager',\n    country: 'Japan',\n    state: '',\n    abv: 5.0\n  }, {\n    name: 'Lucky Buddha Enlightened Beer',\n    type: 'Lager',\n    country: 'Australia',\n    state: '',\n    abv: 4.8\n  }, {\n    name: 'Kloud Original Gravity',\n    type: 'Pilsner',\n    country: 'South Korea',\n    state: '',\n    abv: 5.0\n  }, {\n    name: 'Tsingtao Beer',\n    type: 'Lager',\n    country: 'China',\n    state: '',\n    abv: 4.0\n  }, {\n    name: 'Beck\\'s',\n    type: 'Pilsner',\n    country: 'Germany',\n    state: '',\n    abv: 5.0\n  }, {\n    name: 'Almaza Pilsner Beer',\n    type: 'Pilsner',\n    country: 'Lebanon',\n    state: '',\n    abv: 4.2\n  }, {\n    name: 'Stiegl Grapefruit Radler',\n    type: 'Fruit Beer',\n    country: 'Austria',\n    state: '',\n    abv: 2.5\n  }, {\n    name: 'Stiegl Pils',\n    type: 'Lager',\n    country: 'Austria',\n    state: '',\n    abv: 4.9\n  }, {\n    name: 'Strongbow Gold Apple',\n    type: 'Hard Cider',\n    country: 'England',\n    state: '',\n    abv: 5.0\n  }, {\n    name: 'Stella Artois',\n    type: 'Pilsner',\n    country: 'Belgium',\n    state: '',\n    abv: 5.0\n  }, {\n    name: 'Stella Artois Cidre',\n    type: 'Hard Cider',\n    country: 'Belgium',\n    state: '',\n    abv: 4.5\n  }, {\n    name: 'JK\\'s The Pair Perry Cider',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'Michigan',\n    abv: 5.5\n  }, {\n    name: 'Brooklyn Lager',\n    type: 'Lager',\n    country: 'USA',\n    state: 'New York',\n    abv: 5.2\n  }, {\n    name: 'Peroni Nastro Azzurro',\n    type: 'Lager',\n    country: 'Italy',\n    state: '',\n    abv: 5.1\n  }, {\n    name: 'Starcut Mosa',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'Michigan',\n    abv: 4.3\n  }, {\n    name: 'Goose Island Soleil',\n    type: 'Saison',\n    country: 'USA',\n    state: 'Illinois',\n    abv: 5.5\n  }, {\n    name: 'Goose Island 312 Dry-Hopped',\n    type: 'Wheat Beer',\n    country: 'USA',\n    state: 'Illinois',\n    abv: 4.2\n  }, {\n    name: 'Sonoma Cider The Hatchet Hard Apple Cider',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'California',\n    abv: 6.0\n  }, {\n    name: 'Sonoma Cider The Pitchfork Hard Pear Cider',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'California',\n    abv: 6.0\n  }, {\n    name: 'Angry Orchard Crisp Apple Cider',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'Massachusetts',\n    abv: 5.0\n  }, {\n    name: 'Angry Orchard Green Apple',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'Massachusetts',\n    abv: 5.0\n  }, {\n    name: 'Stem Cider Chile Guava',\n    type: 'Hard Cider',\n    country: 'USA',\n    state: 'Colorado',\n    abv: 5.7\n  }, {\n    name: 'Solemn Oath Snaggletooth Bandana',\n    type: 'IPA',\n    country: 'USA',\n    state: 'Illinois',\n    abv: 6.5\n  }, {\n    name: 'Miller Lite',\n    type: 'Lager',\n    country: 'USA',\n    state: 'Wisconsin',\n    abv: 4.17\n  }, {\n    name: 'Miller High Life',\n    type: 'Lager',\n    country: 'USA',\n    state: 'Wisconsin',\n    abv: 4.6\n  }, {\n    name: 'Bud Light',\n    type: 'Lager',\n    country: 'USA',\n    state: 'Missouri',\n    abv: 4.2\n  }, {\n    name: 'Taiwan Beer Sweet Touch Lychee',\n    type: 'Fruit Beer',\n    country: 'Taiwan',\n    state: '',\n    abv: 3.5\n  }, {\n    name: 'Natural Light',\n    type: 'Lager',\n    country: 'USA',\n    state: 'Missouri',\n    abv: 4.2\n  }, {\n    name: 'Pacifico',\n    type: 'Lager',\n    country: 'Mexico',\n    state: '',\n    abv: 4.5\n  }, {\n    name: 'Redd\\'s Apple Ale',\n    type: 'Fruit Beer',\n    country: 'USA',\n    state: 'Georgia',\n    abv: 5.0\n  }, {\n    name: 'Lost Coast Tangerine Wheat',\n    type: 'Fruit Beer',\n    country: 'USA',\n    state: 'California',\n    abv: 5.5\n  }, {\n    name: 'Samuel Smith\\'s Organic Cherry',\n    type: 'Fruit Beer',\n    country: 'England',\n    state: '',\n    abv: 5.1\n  }, {\n    name: 'Goose Island Honker\\'s Ale',\n    type: 'English Bitter',\n    country: 'USA',\n    state: 'Illinois',\n    abv: 4.3\n  }, {\n    name: 'Schlafly Merry Berry',\n    type: 'Fruit Beer',\n    country: 'USA',\n    state: 'Missouri',\n    abv: 6.0\n  }, {\n    name: 'Short\\'s Soft Parade Shandy',\n    type: 'Fruit Beer',\n    country: 'USA',\n    state: 'Michigan',\n    abv: 4.2\n  }, {\n    name: 'Boulevard Ginger Lemon Radler',\n    type: 'Fruit Beer',\n    country: 'USA',\n    state: 'Missouri',\n    abv: 4.1\n  }, {\n    name: 'Shiner Ruby Redbird',\n    type: 'Fruit Beer',\n    country: 'USA',\n    state: 'Texas',\n    abv: 4.1\n  }];\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1Y2Vycy9iZWVyLXJlZHVjZXIuanM/NTgzYiJdLCJuYW1lcyI6WyJuYW1lIiwidHlwZSIsImNvdW50cnkiLCJzdGF0ZSIsImFidiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBZSwyRUFBVztBQUN4QixTQUFPLENBQ0w7QUFDRUEsUUFBSSxFQUFFLGlCQURSO0FBRUVDLFFBQUksRUFBRSxPQUZSO0FBR0VDLFdBQU8sRUFBRSxPQUhYO0FBSUVDLFNBQUssRUFBRSxFQUpUO0FBS0VDLE9BQUcsRUFBRTtBQUxQLEdBREssRUFRTDtBQUNFSixRQUFJLEVBQUUsaUJBRFI7QUFFRUMsUUFBSSxFQUFFLE9BRlI7QUFHRUMsV0FBTyxFQUFFLE9BSFg7QUFJRUMsU0FBSyxFQUFFLEVBSlQ7QUFLRUMsT0FBRyxFQUFFO0FBTFAsR0FSSyxFQWVMO0FBQ0VKLFFBQUksRUFBRSxRQURSO0FBRUVDLFFBQUksRUFBRSxPQUZSO0FBR0VDLFdBQU8sRUFBRSxRQUhYO0FBSUVDLFNBQUssRUFBRSxFQUpUO0FBS0VDLE9BQUcsRUFBRTtBQUxQLEdBZkssRUFzQkw7QUFDRUosUUFBSSxFQUFFLFdBRFI7QUFFRUMsUUFBSSxFQUFFLFlBRlI7QUFHRUMsV0FBTyxFQUFFLFNBSFg7QUFJRUMsU0FBSyxFQUFFLEVBSlQ7QUFLRUMsT0FBRyxFQUFFO0FBTFAsR0F0QkssRUE2Qkw7QUFDRUosUUFBSSxFQUFFLHdCQURSO0FBRUVDLFFBQUksRUFBRSxVQUZSO0FBR0VDLFdBQU8sRUFBRSxLQUhYO0FBSUVDLFNBQUssRUFBRSxVQUpUO0FBS0VDLE9BQUcsRUFBRTtBQUxQLEdBN0JLLEVBb0NMO0FBQ0VKLFFBQUksRUFBRSxzQ0FEUjtBQUVFQyxRQUFJLEVBQUUsWUFGUjtBQUdFQyxXQUFPLEVBQUUsS0FIWDtBQUlFQyxTQUFLLEVBQUUsUUFKVDtBQUtFQyxPQUFHLEVBQUU7QUFMUCxHQXBDSyxFQTJDTDtBQUNFSixRQUFJLEVBQUUsZ0NBRFI7QUFFRUMsUUFBSSxFQUFF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RSxnQ0FEUjtBQUVFQyxRQUFJLEVBQUUsWUFGUjtBQUdFQyxXQUFPLEVBQUUsU0FIWDtBQUlFQyxTQUFLLEVBQUUsRUFKVDtBQUtFQyxPQUFHLEVBQUU7QUFMUCxHQTlnQkssRUFxaEJMO0FBQ0VKLFFBQUksRUFBRSw0QkFEUjtBQUVFQyxRQUFJLEVBQUUsZ0JBRlI7QUFHRUMsV0FBTyxFQUFFLEtBSFg7QUFJRUMsU0FBSyxFQUFFLFVBSlQ7QUFLRUMsT0FBRyxFQUFFO0FBTFAsR0FyaEJLLEVBNGhCTDtBQUNFSixRQUFJLEVBQUUsc0JBRFI7QUFFRUMsUUFBSSxFQUFFLFlBRlI7QUFHRUMsV0FBTyxFQUFFLEtBSFg7QUFJRUMsU0FBSyxFQUFFLFVBSlQ7QUFLRUMsT0FBRyxFQUFFO0FBTFAsR0E1aEJLLEVBbWlCTDtBQUNFSixRQUFJLEVBQUUsNkJBRFI7QUFFRUMsUUFBSSxFQUFFLFlBRlI7QUFHRUMsV0FBTyxFQUFFLEtBSFg7QUFJRUMsU0FBSyxFQUFFLFVBSlQ7QUFLRUMsT0FBRyxFQUFFO0FBTFAsR0FuaUJLLEVBMGlCTDtBQUNFSixRQUFJLEVBQUUsK0JBRFI7QUFFRUMsUUFBSSxFQUFFLFlBRlI7QUFHRUMsV0FBTyxFQUFFLEtBSFg7QUFJRUMsU0FBSyxFQUFFLFVBSlQ7QUFLRUMsT0FBRyxFQUFFO0FBTFAsR0ExaUJLLEVBaWpCTDtBQUNFSixRQUFJLEVBQUUscUJBRFI7QUFFRUMsUUFBSSxFQUFFLFlBRlI7QUFHRUMsV0FBTyxFQUFFLEtBSFg7QUFJRUMsU0FBSyxFQUFFLE9BSlQ7QUFLRUMsT0FBRyxFQUFFO0FBTFAsR0FqakJLLENBQVA7QUF5akJELEMiLCJmaWxlIjoiLi9yZWR1Y2Vycy9iZWVyLXJlZHVjZXIuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBmdW5jdGlvbigpIHtcbiAgcmV0dXJuIFtcbiAgICB7XG4gICAgICBuYW1lOiAnQXNhaGkgU3VwZXIgRHJ5JyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnSmFwYW4nLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA1LjAsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnU2FwcG9ybyBQcmVtaXVtJyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnSmFwYW4nLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA0LjksXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnVGVjYXRlJyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnTWV4aWNvJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNC41LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ01hZ25lclxcJ3MnLFxuICAgICAgdHlwZTogJ0hhcmQgQ2lkZXInLFxuICAgICAgY291bnRyeTogJ0lyZWxhbmQnLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA0LjUsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnRG9nZmlzaCBIZWFkIFNlYVF1ZW5jaCcsXG4gICAgICB0eXBlOiAnU291ciBBbGUnLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ0RlbGF3YXJlJyxcbiAgICAgIGFidjogJycsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnMiBUb3ducyBDaWRlcmhvdXNlIFBhY2lmaWMgUGluZWFwcGxlJyxcbiAgICAgIHR5cGU6ICdIYXJkIENpZGVyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdPcmVnb24nLFxuICAgICAgYWJ2OiA1LjAsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnMiBUb3ducyBDaWRlcmhvdXNlIEdpbmphIE5pbmphJyxcbiAgICAgIHR5cGU6ICdIYXJkIENpZGVyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdPcmVnb24nLFxuICAgICAgYWJ2OiA2LjAsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnMiBUb3ducyBDaWRlcmhvdXNlIEhhcmQgQXBwbGUgQ2lkZXInLFxuICAgICAgdHlwZTogJ0hhcmQgQ2lkZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ09yZWdvbicsXG4gICAgICBhYnY6IDYuMCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdOZXcgQmVsZ2l1bSBGYXQgVGlyZScsXG4gICAgICB0eXBlOiAnQW1iZXIgQWxlJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdDb2xvcmFkbycsXG4gICAgICBhYnY6IDUuMixcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdCbHVlIE1vb24nLFxuICAgICAgdHlwZTogJ1doZWF0IEJlZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ0NvbG9yYWRvJyxcbiAgICAgIGFidjogNS40LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0dvb3NlIElzbGFuZCBHcmVlbiBMaW5lJyxcbiAgICAgIHR5cGU6ICdBUEEnLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ0lsbGlub2lzJyxcbiAgICAgIGFidjogNS40LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0FjZSBQZXJyeScsXG4gICAgICB0eXBlOiAnSGFyZCBDaWRlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnQ2FsaWZvcm5pYScsXG4gICAgICBhYnY6IDUuMCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdSaWdodCBCZWUgQ2lkZXInLFxuICAgICAgdHlwZTogJ0hhcmQgQ2lkZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ0lsbGlub2lzJyxcbiAgICAgIGFidjogNixcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdHb29zZSBJc2xhbmQgMzEyIFVyYmFuIFdoZWF0JyxcbiAgICAgIHR5cGU6ICdXaGVhdCBCZWVyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdJbGxpbm9pcycsXG4gICAgICBhYnY6IDQuMixcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdMZWluZW5rdWdlbFxcJ3MgU3VtbWVyIFNoYW5keScsXG4gICAgICB0eXBlOiAnRnJ1aXQgQmVlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnV2lzY29uc2luJyxcbiAgICAgIGFidjogNC4yLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0J1cm50IENpdHkgRmFjZW1lbHRlcicsXG4gICAgICB0eXBlOiAnSVBBJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdJbGxpbm9pcycsXG4gICAgICBhYnY6IDcuMCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdNYXVpIFBpbmVhcHBsZSBNYW5hJyxcbiAgICAgIHR5cGU6ICdXaGVhdCBCZWVyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdIYXdhaWknLFxuICAgICAgYWJ2OiA1LjUsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnVmlydHVlIFJvc2UnLFxuICAgICAgdHlwZTogJ0hhcmQgQ2lkZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ01pY2hpZ2FuJyxcbiAgICAgIGFidjogNi43LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0JhdmlrIFN1cGVyIFBpbHMnLFxuICAgICAgdHlwZTogJ1BpbHNuZXInLFxuICAgICAgY291bnRyeTogJ0JlbGdpdW0nLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA1LjIsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnUmVrb3JkZXJsaWcgUGFzc2lvbmZydWl0JyxcbiAgICAgIHR5cGU6ICdIYXJkIENpZGVyJyxcbiAgICAgIGNvdW50cnk6ICdTd2VkZW4nLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA0LjUsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnT3dsXFwncyBCcmV3IFJhZGxlciBXaWNrZWQgV2F0ZXJtZWxvbicsXG4gICAgICB0eXBlOiAnRnJ1aXQgQmVlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnTmV3IFlvcmsnLFxuICAgICAgYWJ2OiAzLjgsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnTmV3IEhvbGxhbmQgRHJhZ29uXFwncyBNaWxrJyxcbiAgICAgIHR5cGU6ICdTdG91dCcsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnTWljaGlnYW4nLFxuICAgICAgYWJ2OiAxMS4wLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0tyb21iYWNoZXIgUGlscycsXG4gICAgICB0eXBlOiAnUGlsc25lcicsXG4gICAgICBjb3VudHJ5OiAnR2VybWFueScsXG4gICAgICBzdGF0ZTogJycsXG4gICAgICBhYnY6IDQuOCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdBbXN0ZWwgTGlnaHQnLFxuICAgICAgdHlwZTogJ0xhZ2VyJyxcbiAgICAgIGNvdW50cnk6ICdIb2xsYW5kJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogMy41LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1N1cmx5IEZ1cmlvdXMnLFxuICAgICAgdHlwZTogJ0lQQScsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnTWlubmVzb3RhJyxcbiAgICAgIGFidjogNi43LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ09yaWdpbmFsIFNpbiBCbGFjayBXaWRvdycsXG4gICAgICB0eXBlOiAnSGFyZCBDaWRlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnTmV3IFlvcmsnLFxuICAgICAgYWJ2OiA2LjAsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnRm9yYmlkZGVuIFJvb3QgU3RyYXdiZXJyeSBCYXNpbCcsXG4gICAgICB0eXBlOiAnRnJ1aXQgQmVlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnSWxsaW5vaXMnLFxuICAgICAgYWJ2OiA1LjAsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnQ2FybHNiZXJnJyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnRGVubWFyaycsXG4gICAgICBzdGF0ZTogJycsXG4gICAgICBhYnY6IDUuMCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdMYWJhdHQgQmx1ZScsXG4gICAgICB0eXBlOiAnUGlsc25lcicsXG4gICAgICBjb3VudHJ5OiAnQ2FuYWRhJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNC43LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0Nvcm9uYSBFeHRyYScsXG4gICAgICB0eXBlOiAnTGFnZXInLFxuICAgICAgY291bnRyeTogJ01leGljbycsXG4gICAgICBzdGF0ZTogJycsXG4gICAgICBhYnY6IDQuNSxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdNb2RlbG8gRXNwZWNpYWwnLFxuICAgICAgdHlwZTogJ0xhZ2VyJyxcbiAgICAgIGNvdW50cnk6ICdNZXhpY28nLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA0LjQsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnTmVncmEgTW9kZWxvJyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnTWV4aWNvJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNS40LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0d1aW5uZXNzIERyYXVnaHQnLFxuICAgICAgdHlwZTogJ1N0b3V0JyxcbiAgICAgIGNvdW50cnk6ICdJcmVsYW5kJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNC4yLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1Nob2NrIFRvcCBCZWxnaWFuIFdoaXRlJyxcbiAgICAgIHR5cGU6ICdXaGVhdCBCZWVyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdNaXNzb3VyaScsXG4gICAgICBhYnY6IDUuNCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdNaWNoZWxvYiBVTFRSQScsXG4gICAgICB0eXBlOiAnTGFnZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ01pc3NvdXJpJyxcbiAgICAgIGFidjogNC4yLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0hlaW5la2VuJyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnSG9sbGFuZCcsXG4gICAgICBzdGF0ZTogJycsXG4gICAgICBhYnY6IDUuMCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdCYWxsYXN0IFBvaW50IEdyYXBlZnJ1aXQgU2N1bHBpbicsXG4gICAgICB0eXBlOiAnSVBBJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdDYWxpZm9ybmlhJyxcbiAgICAgIGFidjogNy4wLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0JhbGxhc3QgUG9pbnQgU291ciBXZW5jaCcsXG4gICAgICB0eXBlOiAnU291ciBBbGUnLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ0NhbGlmb3JuaWEnLFxuICAgICAgYWJ2OiA3LjAsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnRG9zIEVxdWlzIExhZ2VyJyxcbiAgICAgIHR5cGU6ICdQaWxzbmVyJyxcbiAgICAgIGNvdW50cnk6ICdNZXhpY28nLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA0LjIsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnQm9oZW1pYScsXG4gICAgICB0eXBlOiAnUGlsc25lcicsXG4gICAgICBjb3VudHJ5OiAnTWV4aWNvJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNC43LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1BhYnN0IEJsdWUgUmliYm9uJyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnV2lzY29uc2luJyxcbiAgICAgIGFidjogNC43NCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdDb29ycyBMaWdodCcsXG4gICAgICB0eXBlOiAnTGFnZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ0NvbG9yYWRvJyxcbiAgICAgIGFidjogNC4yLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1JvbGxpbmcgUm9jaycsXG4gICAgICB0eXBlOiAnTGFnZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ01pc3NvdXJpJyxcbiAgICAgIGFidjogNC40LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0tpcmluIEljaGliYW4nLFxuICAgICAgdHlwZTogJ0xhZ2VyJyxcbiAgICAgIGNvdW50cnk6ICdKYXBhbicsXG4gICAgICBzdGF0ZTogJycsXG4gICAgICBhYnY6IDUuMCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdTYXBwb3JvIEJsYWNrJyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnSmFwYW4nLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA1LjAsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnTHVja3kgQnVkZGhhIEVubGlnaHRlbmVkIEJlZXInLFxuICAgICAgdHlwZTogJ0xhZ2VyJyxcbiAgICAgIGNvdW50cnk6ICdBdXN0cmFsaWEnLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA0LjgsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnS2xvdWQgT3JpZ2luYWwgR3Jhdml0eScsXG4gICAgICB0eXBlOiAnUGlsc25lcicsXG4gICAgICBjb3VudHJ5OiAnU291dGggS29yZWEnLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA1LjAsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnVHNpbmd0YW8gQmVlcicsXG4gICAgICB0eXBlOiAnTGFnZXInLFxuICAgICAgY291bnRyeTogJ0NoaW5hJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNC4wLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0JlY2tcXCdzJyxcbiAgICAgIHR5cGU6ICdQaWxzbmVyJyxcbiAgICAgIGNvdW50cnk6ICdHZXJtYW55JyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNS4wLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0FsbWF6YSBQaWxzbmVyIEJlZXInLFxuICAgICAgdHlwZTogJ1BpbHNuZXInLFxuICAgICAgY291bnRyeTogJ0xlYmFub24nLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA0LjIsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnU3RpZWdsIEdyYXBlZnJ1aXQgUmFkbGVyJyxcbiAgICAgIHR5cGU6ICdGcnVpdCBCZWVyJyxcbiAgICAgIGNvdW50cnk6ICdBdXN0cmlhJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogMi41LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1N0aWVnbCBQaWxzJyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnQXVzdHJpYScsXG4gICAgICBzdGF0ZTogJycsXG4gICAgICBhYnY6IDQuOSxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdTdHJvbmdib3cgR29sZCBBcHBsZScsXG4gICAgICB0eXBlOiAnSGFyZCBDaWRlcicsXG4gICAgICBjb3VudHJ5OiAnRW5nbGFuZCcsXG4gICAgICBzdGF0ZTogJycsXG4gICAgICBhYnY6IDUuMCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdTdGVsbGEgQXJ0b2lzJyxcbiAgICAgIHR5cGU6ICdQaWxzbmVyJyxcbiAgICAgIGNvdW50cnk6ICdCZWxnaXVtJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNS4wLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1N0ZWxsYSBBcnRvaXMgQ2lkcmUnLFxuICAgICAgdHlwZTogJ0hhcmQgQ2lkZXInLFxuICAgICAgY291bnRyeTogJ0JlbGdpdW0nLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiA0LjUsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnSktcXCdzIFRoZSBQYWlyIFBlcnJ5IENpZGVyJyxcbiAgICAgIHR5cGU6ICdIYXJkIENpZGVyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdNaWNoaWdhbicsXG4gICAgICBhYnY6IDUuNSxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdCcm9va2x5biBMYWdlcicsXG4gICAgICB0eXBlOiAnTGFnZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ05ldyBZb3JrJyxcbiAgICAgIGFidjogNS4yLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1Blcm9uaSBOYXN0cm8gQXp6dXJybycsXG4gICAgICB0eXBlOiAnTGFnZXInLFxuICAgICAgY291bnRyeTogJ0l0YWx5JyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNS4xLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1N0YXJjdXQgTW9zYScsXG4gICAgICB0eXBlOiAnSGFyZCBDaWRlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnTWljaGlnYW4nLFxuICAgICAgYWJ2OiA0LjMsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnR29vc2UgSXNsYW5kIFNvbGVpbCcsXG4gICAgICB0eXBlOiAnU2Fpc29uJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdJbGxpbm9pcycsXG4gICAgICBhYnY6IDUuNSxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdHb29zZSBJc2xhbmQgMzEyIERyeS1Ib3BwZWQnLFxuICAgICAgdHlwZTogJ1doZWF0IEJlZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ0lsbGlub2lzJyxcbiAgICAgIGFidjogNC4yLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1Nvbm9tYSBDaWRlciBUaGUgSGF0Y2hldCBIYXJkIEFwcGxlIENpZGVyJyxcbiAgICAgIHR5cGU6ICdIYXJkIENpZGVyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdDYWxpZm9ybmlhJyxcbiAgICAgIGFidjogNi4wLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1Nvbm9tYSBDaWRlciBUaGUgUGl0Y2hmb3JrIEhhcmQgUGVhciBDaWRlcicsXG4gICAgICB0eXBlOiAnSGFyZCBDaWRlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnQ2FsaWZvcm5pYScsXG4gICAgICBhYnY6IDYuMCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdBbmdyeSBPcmNoYXJkIENyaXNwIEFwcGxlIENpZGVyJyxcbiAgICAgIHR5cGU6ICdIYXJkIENpZGVyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdNYXNzYWNodXNldHRzJyxcbiAgICAgIGFidjogNS4wLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0FuZ3J5IE9yY2hhcmQgR3JlZW4gQXBwbGUnLFxuICAgICAgdHlwZTogJ0hhcmQgQ2lkZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ01hc3NhY2h1c2V0dHMnLFxuICAgICAgYWJ2OiA1LjAsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnU3RlbSBDaWRlciBDaGlsZSBHdWF2YScsXG4gICAgICB0eXBlOiAnSGFyZCBDaWRlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnQ29sb3JhZG8nLFxuICAgICAgYWJ2OiA1LjcsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnU29sZW1uIE9hdGggU25hZ2dsZXRvb3RoIEJhbmRhbmEnLFxuICAgICAgdHlwZTogJ0lQQScsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnSWxsaW5vaXMnLFxuICAgICAgYWJ2OiA2LjUsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnTWlsbGVyIExpdGUnLFxuICAgICAgdHlwZTogJ0xhZ2VyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdXaXNjb25zaW4nLFxuICAgICAgYWJ2OiA0LjE3LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ01pbGxlciBIaWdoIExpZmUnLFxuICAgICAgdHlwZTogJ0xhZ2VyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdXaXNjb25zaW4nLFxuICAgICAgYWJ2OiA0LjYsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnQnVkIExpZ2h0JyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnTWlzc291cmknLFxuICAgICAgYWJ2OiA0LjIsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnVGFpd2FuIEJlZXIgU3dlZXQgVG91Y2ggTHljaGVlJyxcbiAgICAgIHR5cGU6ICdGcnVpdCBCZWVyJyxcbiAgICAgIGNvdW50cnk6ICdUYWl3YW4nLFxuICAgICAgc3RhdGU6ICcnLFxuICAgICAgYWJ2OiAzLjUsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnTmF0dXJhbCBMaWdodCcsXG4gICAgICB0eXBlOiAnTGFnZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ01pc3NvdXJpJyxcbiAgICAgIGFidjogNC4yLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1BhY2lmaWNvJyxcbiAgICAgIHR5cGU6ICdMYWdlcicsXG4gICAgICBjb3VudHJ5OiAnTWV4aWNvJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNC41LFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1JlZGRcXCdzIEFwcGxlIEFsZScsXG4gICAgICB0eXBlOiAnRnJ1aXQgQmVlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnR2VvcmdpYScsXG4gICAgICBhYnY6IDUuMCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdMb3N0IENvYXN0IFRhbmdlcmluZSBXaGVhdCcsXG4gICAgICB0eXBlOiAnRnJ1aXQgQmVlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnQ2FsaWZvcm5pYScsXG4gICAgICBhYnY6IDUuNSxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdTYW11ZWwgU21pdGhcXCdzIE9yZ2FuaWMgQ2hlcnJ5JyxcbiAgICAgIHR5cGU6ICdGcnVpdCBCZWVyJyxcbiAgICAgIGNvdW50cnk6ICdFbmdsYW5kJyxcbiAgICAgIHN0YXRlOiAnJyxcbiAgICAgIGFidjogNS4xLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ0dvb3NlIElzbGFuZCBIb25rZXJcXCdzIEFsZScsXG4gICAgICB0eXBlOiAnRW5nbGlzaCBCaXR0ZXInLFxuICAgICAgY291bnRyeTogJ1VTQScsXG4gICAgICBzdGF0ZTogJ0lsbGlub2lzJyxcbiAgICAgIGFidjogNC4zLFxuICAgIH0sXG4gICAge1xuICAgICAgbmFtZTogJ1NjaGxhZmx5IE1lcnJ5IEJlcnJ5JyxcbiAgICAgIHR5cGU6ICdGcnVpdCBCZWVyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdNaXNzb3VyaScsXG4gICAgICBhYnY6IDYuMCxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdTaG9ydFxcJ3MgU29mdCBQYXJhZGUgU2hhbmR5JyxcbiAgICAgIHR5cGU6ICdGcnVpdCBCZWVyJyxcbiAgICAgIGNvdW50cnk6ICdVU0EnLFxuICAgICAgc3RhdGU6ICdNaWNoaWdhbicsXG4gICAgICBhYnY6IDQuMixcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdCb3VsZXZhcmQgR2luZ2VyIExlbW9uIFJhZGxlcicsXG4gICAgICB0eXBlOiAnRnJ1aXQgQmVlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnTWlzc291cmknLFxuICAgICAgYWJ2OiA0LjEsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnU2hpbmVyIFJ1YnkgUmVkYmlyZCcsXG4gICAgICB0eXBlOiAnRnJ1aXQgQmVlcicsXG4gICAgICBjb3VudHJ5OiAnVVNBJyxcbiAgICAgIHN0YXRlOiAnVGV4YXMnLFxuICAgICAgYWJ2OiA0LjEsXG4gICAgfSxcbiAgXTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./reducers/beer-reducer.js\n");
+
+/***/ }),
+
+/***/ "./reducers/index.js":
+/*!***************************!*\
+  !*** ./reducers/index.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ \"redux\");\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _resume_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resume-reducer */ \"./reducers/resume-reducer.js\");\n/* harmony import */ var _kits_reducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./kits-reducer */ \"./reducers/kits-reducer.js\");\n/* harmony import */ var _accomplishments_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./accomplishments-reducer */ \"./reducers/accomplishments-reducer.js\");\n/* harmony import */ var _GameState__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./GameState */ \"./reducers/GameState.js\");\n/* harmony import */ var _beer_reducer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./beer-reducer */ \"./reducers/beer-reducer.js\");\n\n\n\n\n\n\nconst allReducers = Object(redux__WEBPACK_IMPORTED_MODULE_0__[\"combineReducers\"])({\n  resumeReducer: _resume_reducer__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  gameState: _GameState__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n  kitsReducer: _kits_reducer__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n  accomplishmentsReducer: _accomplishments_reducer__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n  beerReducer: _beer_reducer__WEBPACK_IMPORTED_MODULE_5__[\"default\"]\n});\n/* harmony default export */ __webpack_exports__[\"default\"] = (allReducers);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1Y2Vycy9pbmRleC5qcz9jZThlIl0sIm5hbWVzIjpbImFsbFJlZHVjZXJzIiwiY29tYmluZVJlZHVjZXJzIiwicmVzdW1lUmVkdWNlciIsImdhbWVTdGF0ZSIsIkdhbWVTdGF0ZSIsImtpdHNSZWR1Y2VyIiwiYWNjb21wbGlzaG1lbnRzUmVkdWNlciIsImJlZXJSZWR1Y2VyIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBRUEsTUFBTUEsV0FBVyxHQUFHQyw2REFBZSxDQUFDO0FBQ2xDQyxlQUFhLEVBQUVBLHVEQURtQjtBQUVsQ0MsV0FBUyxFQUFFQyxrREFGdUI7QUFHbENDLGFBQVcsRUFBRUEscURBSHFCO0FBSWxDQyx3QkFBc0IsRUFBRUEsZ0VBSlU7QUFLbENDLGFBQVcsRUFBRUEscURBQVdBO0FBTFUsQ0FBRCxDQUFuQztBQVFlUCwwRUFBZiIsImZpbGUiOiIuL3JlZHVjZXJzL2luZGV4LmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY29tYmluZVJlZHVjZXJzIH0gZnJvbSAncmVkdXgnO1xuaW1wb3J0IHJlc3VtZVJlZHVjZXIgZnJvbSAnLi9yZXN1bWUtcmVkdWNlcic7XG5pbXBvcnQga2l0c1JlZHVjZXIgZnJvbSAnLi9raXRzLXJlZHVjZXInO1xuaW1wb3J0IGFjY29tcGxpc2htZW50c1JlZHVjZXIgZnJvbSAnLi9hY2NvbXBsaXNobWVudHMtcmVkdWNlcic7XG5pbXBvcnQgR2FtZVN0YXRlIGZyb20gJy4vR2FtZVN0YXRlJztcbmltcG9ydCBiZWVyUmVkdWNlciBmcm9tICcuL2JlZXItcmVkdWNlcic7XG5cbmNvbnN0IGFsbFJlZHVjZXJzID0gY29tYmluZVJlZHVjZXJzKHtcbiAgcmVzdW1lUmVkdWNlcjogcmVzdW1lUmVkdWNlcixcbiAgZ2FtZVN0YXRlOiBHYW1lU3RhdGUsXG4gIGtpdHNSZWR1Y2VyOiBraXRzUmVkdWNlcixcbiAgYWNjb21wbGlzaG1lbnRzUmVkdWNlcjogYWNjb21wbGlzaG1lbnRzUmVkdWNlcixcbiAgYmVlclJlZHVjZXI6IGJlZXJSZWR1Y2VyLFxufSk7XG5cbmV4cG9ydCBkZWZhdWx0IGFsbFJlZHVjZXJzOyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./reducers/index.js\n");
+
+/***/ }),
+
+/***/ "./reducers/kits-reducer.js":
+/*!**********************************!*\
+  !*** ./reducers/kits-reducer.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  return {\n    allkits: [{\n      name: 'DePaul Men\\'s Club Volleyball',\n      season: '2018-2019 ',\n      sport: 'Volleyball',\n      edition: 'Home',\n      description: 'Inspired by the Chicago White Sox',\n      link: 'https://i.imgur.com/RVdQdr9.jpg'\n    }, {\n      name: 'DePaul Men\\'s Club Volleyball',\n      season: '2018-2019',\n      sport: 'Volleyball',\n      edition: 'Away',\n      description: 'Inspired by the Chicago Cubs',\n      link: 'https://i.imgur.com/xgdrvc7.jpg'\n    }, {\n      name: 'DePaul Men\\'s Club Soccer',\n      season: '2019-2020',\n      sport: 'Soccer',\n      edition: 'Home',\n      description: 'Inspired by Gremio',\n      link: 'https://i.imgur.com/WYlxP1G.jpg'\n    }, {\n      name: 'DePaul Men\\'s Club Soccer',\n      season: '2017-2018',\n      sport: 'Volleyball',\n      edition: 'Home & Away',\n      description: '',\n      link: 'https://i.imgur.com/eiWEEFe.png'\n    }]\n  };\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1Y2Vycy9raXRzLXJlZHVjZXIuanM/NTc4YiJdLCJuYW1lcyI6WyJhbGxraXRzIiwibmFtZSIsInNlYXNvbiIsInNwb3J0IiwiZWRpdGlvbiIsImRlc2NyaXB0aW9uIiwibGluayJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBZSwyRUFBVztBQUN4QixTQUFPO0FBQ0xBLFdBQU8sRUFBRSxDQUNQO0FBQ0VDLFVBQUksRUFBRSwrQkFEUjtBQUVFQyxZQUFNLEVBQUUsWUFGVjtBQUdFQyxXQUFLLEVBQUUsWUFIVDtBQUlFQyxhQUFPLEVBQUUsTUFKWDtBQUtFQyxpQkFBVyxFQUFFLG1DQUxmO0FBTUVDLFVBQUksRUFBRTtBQU5SLEtBRE8sRUFTUDtBQUNFTCxVQUFJLEVBQUUsK0JBRFI7QUFFRUMsWUFBTSxFQUFFLFdBRlY7QUFHRUMsV0FBSyxFQUFFLFlBSFQ7QUFJRUMsYUFBTyxFQUFFLE1BSlg7QUFLRUMsaUJBQVcsRUFBRSw4QkFMZjtBQU1FQyxVQUFJLEVBQUU7QUFOUixLQVRPLEVBaUJQO0FBQ0VMLFVBQUksRUFBRSwyQkFEUjtBQUVFQyxZQUFNLEVBQUUsV0FGVjtBQUdFQyxXQUFLLEVBQUUsUUFIVDtBQUlFQyxhQUFPLEVBQUUsTUFKWDtBQUtFQyxpQkFBVyxFQUFFLG9CQUxmO0FBTUVDLFVBQUksRUFBRTtBQU5SLEtBakJPLEVBeUJQO0FBQ0VMLFVBQUksRUFBRSwyQkFEUjtBQUVFQyxZQUFNLEVBQUUsV0FGVjtBQUdFQyxXQUFLLEVBQUUsWUFIVDtBQUlFQyxhQUFPLEVBQUUsYUFKWDtBQUtFQyxpQkFBVyxFQUFFLEVBTGY7QUFNRUMsVUFBSSxFQUFFO0FBTlIsS0F6Qk87QUFESixHQUFQO0FBcUNELEMiLCJmaWxlIjoiLi9yZWR1Y2Vycy9raXRzLXJlZHVjZXIuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBmdW5jdGlvbigpIHtcbiAgcmV0dXJuIHtcbiAgICBhbGxraXRzOiBbXG4gICAgICB7XG4gICAgICAgIG5hbWU6ICdEZVBhdWwgTWVuXFwncyBDbHViIFZvbGxleWJhbGwnLFxuICAgICAgICBzZWFzb246ICcyMDE4LTIwMTkgJyxcbiAgICAgICAgc3BvcnQ6ICdWb2xsZXliYWxsJyxcbiAgICAgICAgZWRpdGlvbjogJ0hvbWUnLFxuICAgICAgICBkZXNjcmlwdGlvbjogJ0luc3BpcmVkIGJ5IHRoZSBDaGljYWdvIFdoaXRlIFNveCcsXG4gICAgICAgIGxpbms6ICdodHRwczovL2kuaW1ndXIuY29tL1JWZFFkcjkuanBnJyxcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIG5hbWU6ICdEZVBhdWwgTWVuXFwncyBDbHViIFZvbGxleWJhbGwnLFxuICAgICAgICBzZWFzb246ICcyMDE4LTIwMTknLFxuICAgICAgICBzcG9ydDogJ1ZvbGxleWJhbGwnLFxuICAgICAgICBlZGl0aW9uOiAnQXdheScsXG4gICAgICAgIGRlc2NyaXB0aW9uOiAnSW5zcGlyZWQgYnkgdGhlIENoaWNhZ28gQ3VicycsXG4gICAgICAgIGxpbms6ICdodHRwczovL2kuaW1ndXIuY29tL3hnZHJ2YzcuanBnJyxcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIG5hbWU6ICdEZVBhdWwgTWVuXFwncyBDbHViIFNvY2NlcicsXG4gICAgICAgIHNlYXNvbjogJzIwMTktMjAyMCcsXG4gICAgICAgIHNwb3J0OiAnU29jY2VyJyxcbiAgICAgICAgZWRpdGlvbjogJ0hvbWUnLFxuICAgICAgICBkZXNjcmlwdGlvbjogJ0luc3BpcmVkIGJ5IEdyZW1pbycsXG4gICAgICAgIGxpbms6ICdodHRwczovL2kuaW1ndXIuY29tL1dZbHhQMUcuanBnJyxcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIG5hbWU6ICdEZVBhdWwgTWVuXFwncyBDbHViIFNvY2NlcicsXG4gICAgICAgIHNlYXNvbjogJzIwMTctMjAxOCcsXG4gICAgICAgIHNwb3J0OiAnVm9sbGV5YmFsbCcsXG4gICAgICAgIGVkaXRpb246ICdIb21lICYgQXdheScsXG4gICAgICAgIGRlc2NyaXB0aW9uOiAnJyxcbiAgICAgICAgbGluazogJ2h0dHBzOi8vaS5pbWd1ci5jb20vZWlXRUVGZS5wbmcnLFxuICAgICAgfSxcblxuICAgIF0sXG4gIH07XG59Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./reducers/kits-reducer.js\n");
+
+/***/ }),
+
+/***/ "./reducers/resume-reducer.js":
+/*!************************************!*\
+  !*** ./reducers/resume-reducer.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  return {\n    jobs: [{\n      company: \"Health Care Service Corportaion (BCBS)\",\n      type: \"Software Engineer (Test)\",\n      roll: \"Associate\",\n      location: \"Chicago, Illinois\",\n      time: \"Summer - Present Day\",\n      whathappened: [\"Write and manage automated testing scripts for the BCBSIL Android app using Java, Selenium and Maven \", \"Leading the refactoring efforts to clean up the mobile app testing framework (both Android and iOS)\", \"Created a slew of new reusable helper functions for the team to use when scripting automated test cases \", \"Help create the user stories for both the manual and automated test cases \"],\n      link: \"https://play.google.com/store/apps/details?id=com.hcsc.android.providerfinderil&hl=en_US&gl=US\"\n    }, {\n      company: \"FoodBoss\",\n      type: \"Software Engineer\",\n      roll: \"Intern\",\n      location: \"Chicago, Illinois\",\n      time: \"Winter - Spring 2020\",\n      whathappened: [\"Built home page, static pages, redesigned the search page using Redux, React and NextJS\", \"Refactored and restyled React components with modern ES6 syntax, SCSS and Redux React\", \"Added Selenium tests, with a chrome driver, to our codebase to test pull requests when they get created, so we can automatically validate them before merging into staging or production\", \"Implemented a Pull Request template to our Github repository to help organize and abstract new Pull Requests\"],\n      link: \"https://www.foodboss.com/\"\n    }, {\n      company: \"Anixter International Inc\",\n      type: \"Intern\",\n      roll: \"Information Services Development Program\",\n      location: \"Chicago, Illinois\",\n      time: \"Summer 2019\",\n      whathappened: [\"Built an Electron desktop application to function as an interactive catalog for Project Managers and Sales Reps to aggregate through a database of shipping labels. \", \"Created a database of 1000+ active shipping labels with corresponding web app to maintain it.\", \"Wrote scripts to calculate the estimated shipping cost for packages sent from a warehouse in New South Wales, Australia\"],\n      link: \"none\"\n    }, {\n      company: \"Chicago Transit Authority\",\n      type: \"Software Development Intern\",\n      roll: \"Transit Operations\",\n      location: \"Chicago, Illinois\",\n      time: \"Winter/Spring 2018 & Summer 2018\",\n      whathappened: [\"Recreated a 10 year old web portal from the ground up using ASP.NET MVC\", \"Added new functionality to shelter/bus sign maintenance program, enabling maintenance workers to handle repairs quicker and easier\", \"Wrote a documentation manual for the CTA Train Tracker\", \"Created a program to digitize Terminal Log sheets. Employees would previously record data on paper for someone else to manually update a spreadsheet after their shift; my program takes care of all that in one go. When an employee fills out the form, it automatically populates the database\"],\n      link: \"none\"\n    }, {\n      company: \"Illinois Tool Works\",\n      type: \"Computer Science Intern\",\n      roll: \"Innovation Center\",\n      location: \"Glenview, Illinois\",\n      time: \"Summer 2017\",\n      whathappened: [\"Created and updated pages to the ITW Innovation Center Sharepoint websites\", \"Wrote scripts tracking online data for various ITW branches. The scripts automatically run every 2 weeks to collect tweets, blog posts, YouTube videos and whatever other online content that mentions the specific company/products\", \"Programmed a Sawyer robot to flip burgers and/or pancakes for a live demo to show on tours of the ITW headquarters\"],\n      link: \"https://www.youtube.com/watch?v=6arNqddjC6M\"\n    }],\n    additionalIndustryExperience: [{\n      company: \"Futhead\",\n      type: \"Volunteer\",\n      roll: \"Moderator\",\n      location: \"Huntsville, Alabama\",\n      time: \"Fall 2015 - Present Day\",\n      whathappened: [\"Maintain and monitor a large online Fifa Ultimate Team community (over 1 million unique users and 80 mil unique visitors)\", \"Provide feedback for the owner and lead developers to help with upkeep, testing and production of new features\", \"Learned about what it takes to run a forum/database website, including the various social media aspects\"],\n      link: \"https://www.futhead.com/\"\n    }, {\n      company: \"Inspect All Home Inspections Inc\",\n      type: \"Web Developer\",\n      roll: \"Freelance\",\n      location: \"Chicago, Illinois\",\n      time: \"Fall 2020\",\n      whathappened: [\"TBD\"],\n      link: \"none\"\n    }],\n    relevantCoursework: [\"Data Structures 1 & 2\", \"Software Projects for Community Clients\", \"Advanced Application Development 1 & 2\", \"Server-Side Web Development\", \"Data Analysis\", \"App Development Framework\", \"Human Computer Interaction\", \"Computer Systems\"],\n    projects: [{\n      name: \"This\",\n      description: \"I made this website\",\n      link: \"/\"\n    }, {\n      name: \"Shitty Dating\",\n      description: \"TBA\",\n      link: \"TBD\"\n    }, {\n      name: \"Beer\",\n      description: \"An indepth, statistical and scientific analysis of all the different kinds of beer I've sampled over the years\",\n      link: \"beer\"\n    }, {\n      name: \"Pokemon TCG Card Price Aggregator\",\n      description: \"I'm currently working on a project to scrape TCG Player, Ebay and Troll & Toad to check, track and compare prices for Pokemon cards\",\n      link: \"TBD\"\n    }, {\n      name: \"Tic Tac Toe\",\n      description: \"I created a tic tac toe game in React Redux to server as a potential interview project for FoodBoss\",\n      link: \"https://dipaolo-react-redux-ttt.herokuapp.com/\"\n    }, {\n      name: \"Is it Rotating? Pokemon TCG 2019-2020\",\n      description: \"I created a tool read from the Pokemon TCGO API and check to see which cards are leaving the format come the 2019 rotation\",\n      link: \"https://notmichaelsgithub.github.io/is_it_rotating/\"\n    }, {\n      name: \"Wogwon's FIFA IG Stat Calculator\",\n      description: \"A web app using the legendary Futheader Wogwon's card stat algorithm. This was the first javascript project I made back in high school and I'll love it forever\",\n      link: \"https://notmichaelsgithub.github.io/wogwoncalc/\"\n    }, {\n      name: \"My Code Pen account\",\n      description: \"I toss up cool/useful blocks of code here that don't warrant a whole project based around them\",\n      link: \"https://codepen.io/NotMichael/pens/\"\n    }],\n    sports: [{\n      name: \"DePaul Men's Club Volleyball\",\n      position: \"Libero\",\n      time: \"2016 - 2020\",\n      accolades: [\"1st Place Men's AA Gold @ MIVAs 16-17\", \"3rd Place Men's AA Gold @ Nationals 16-17\", \"15th Place Men's A Gold @ Nationals 17-18\", \"1st Place Men's A Silver @ Nationals 18-19\"]\n    }, {\n      name: \"DePaul Men's Club Soccer\",\n      position: \"Defensive Mid\",\n      time: \"2017 - 2020\",\n      accolades: [\"We tried\"]\n    }, {\n      name: \"Di Paolo FC\",\n      position: \"Defensive Mid / Right Wingback\",\n      time: \"2019 - Present Day\",\n      accolades: [\"1st Place Advanced Co-Ed 7v7 @ CFRS Summer Session 2019\"]\n    }, {\n      name: \"Competitive Pokemon\",\n      position: \"Senior\",\n      time: \"1998 - Present Day\",\n      accolades: [\"17th Place Madison VGC Regional - 2018\", \"1st Place Wednesday Night Standard TCG Tournament @ Near Mint Games 7/3/19\"]\n    }],\n    languages: [{\n      name: \"English\",\n      level: \"Fluent\",\n      years: \"21 years\"\n    }, {\n      name: \"Japanese\",\n      level: \"Beginner\",\n      years: \"1 year\"\n    }]\n  };\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZWR1Y2Vycy9yZXN1bWUtcmVkdWNlci5qcz84NDBjIl0sIm5hbWVzIjpbImpvYnMiLCJjb21wYW55IiwidHlwZSIsInJvbGwiLCJsb2NhdGlvbiIsInRpbWUiLCJ3aGF0aGFwcGVuZWQiLCJsaW5rIiwiYWRkaXRpb25hbEluZHVzdHJ5RXhwZXJpZW5jZSIsInJlbGV2YW50Q291cnNld29yayIsInByb2plY3RzIiwibmFtZSIsImRlc2NyaXB0aW9uIiwic3BvcnRzIiwicG9zaXRpb24iLCJhY2NvbGFkZXMiLCJsYW5ndWFnZXMiLCJsZXZlbCIsInllYXJzIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFlLDJFQUFZO0FBQ3pCLFNBQU87QUFDTEEsUUFBSSxFQUFFLENBQ0o7QUFDRUMsYUFBTyxFQUFFLHdDQURYO0FBRUVDLFVBQUksRUFBRSwwQkFGUjtBQUdFQyxVQUFJLEVBQUUsV0FIUjtBQUlFQyxjQUFRLEVBQUUsbUJBSlo7QUFLRUMsVUFBSSxFQUFFLHNCQUxSO0FBTUVDLGtCQUFZLEVBQUUsQ0FDWix1R0FEWSxFQUVaLHFHQUZZLEVBR1osMEdBSFksRUFJWiw0RUFKWSxDQU5oQjtBQVlFQyxVQUFJLEVBQ0Y7QUFiSixLQURJLEVBZ0JKO0FBQ0VOLGFBQU8sRUFBRSxVQURYO0FBRUVDLFVBQUksRUFBRSxtQkFGUjtBQUdFQyxVQUFJLEVBQUUsUUFIUjtBQUlFQyxjQUFRLEVBQUUsbUJBSlo7QUFLRUMsVUFBSSxFQUFFLHNCQUxSO0FBTUVDLGtCQUFZLEVBQUUsQ0FDWix5RkFEWSxFQUVaLHVGQUZZLEVBR1osMExBSFksRUFJWiw4R0FKWSxDQU5oQjtBQVlFQyxVQUFJLEVBQUU7QUFaUixLQWhCSSxFQThCSjtBQUNFTixhQUFPLEVBQUUsMkJBRFg7QUFFRUMsVUFBSSxFQUFFLFFBRlI7QUFHRUMsVUFBSSxFQUFFLDBDQUhSO0FBSUVDLGNBQVEsRUFBRSxtQkFKWjtBQUtFQyxVQUFJLEVBQUUsYUFMUjtBQU1FQyxrQkFBWSxFQUFFLENB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RUosVUFBSSxFQUFFLDBCQURSO0FBRUVHLGNBQVEsRUFBRSxlQUZaO0FBR0VULFVBQUksRUFBRSxhQUhSO0FBSUVVLGVBQVMsRUFBRSxDQUFDLFVBQUQ7QUFKYixLQVpNLEVBa0JOO0FBQ0VKLFVBQUksRUFBRSxhQURSO0FBRUVHLGNBQVEsRUFBRSxnQ0FGWjtBQUdFVCxVQUFJLEVBQUUsb0JBSFI7QUFJRVUsZUFBUyxFQUFFLENBQUMseURBQUQ7QUFKYixLQWxCTSxFQXdCTjtBQUNFSixVQUFJLEVBQUUscUJBRFI7QUFFRUcsY0FBUSxFQUFFLFFBRlo7QUFHRVQsVUFBSSxFQUFFLG9CQUhSO0FBSUVVLGVBQVMsRUFBRSxDQUNULHdDQURTLEVBRVQsNEVBRlM7QUFKYixLQXhCTSxDQTFKSDtBQTRMTEMsYUFBUyxFQUFFLENBQ1Q7QUFDRUwsVUFBSSxFQUFFLFNBRFI7QUFFRU0sV0FBSyxFQUFFLFFBRlQ7QUFHRUMsV0FBSyxFQUFFO0FBSFQsS0FEUyxFQU1UO0FBQ0VQLFVBQUksRUFBRSxVQURSO0FBRUVNLFdBQUssRUFBRSxVQUZUO0FBR0VDLFdBQUssRUFBRTtBQUhULEtBTlM7QUE1TE4sR0FBUDtBQXlNRCxDIiwiZmlsZSI6Ii4vcmVkdWNlcnMvcmVzdW1lLXJlZHVjZXIuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiAoKSB7XG4gIHJldHVybiB7XG4gICAgam9iczogW1xuICAgICAge1xuICAgICAgICBjb21wYW55OiBcIkhlYWx0aCBDYXJlIFNlcnZpY2UgQ29ycG9ydGFpb24gKEJDQlMpXCIsXG4gICAgICAgIHR5cGU6IFwiU29mdHdhcmUgRW5naW5lZXIgKFRlc3QpXCIsXG4gICAgICAgIHJvbGw6IFwiQXNzb2NpYXRlXCIsXG4gICAgICAgIGxvY2F0aW9uOiBcIkNoaWNhZ28sIElsbGlub2lzXCIsXG4gICAgICAgIHRpbWU6IFwiU3VtbWVyIC0gUHJlc2VudCBEYXlcIixcbiAgICAgICAgd2hhdGhhcHBlbmVkOiBbXG4gICAgICAgICAgXCJXcml0ZSBhbmQgbWFuYWdlIGF1dG9tYXRlZCB0ZXN0aW5nIHNjcmlwdHMgZm9yIHRoZSBCQ0JTSUwgQW5kcm9pZCBhcHAgdXNpbmcgSmF2YSwgU2VsZW5pdW0gYW5kIE1hdmVuIFwiLFxuICAgICAgICAgIFwiTGVhZGluZyB0aGUgcmVmYWN0b3JpbmcgZWZmb3J0cyB0byBjbGVhbiB1cCB0aGUgbW9iaWxlIGFwcCB0ZXN0aW5nIGZyYW1ld29yayAoYm90aCBBbmRyb2lkIGFuZCBpT1MpXCIsXG4gICAgICAgICAgXCJDcmVhdGVkIGEgc2xldyBvZiBuZXcgcmV1c2FibGUgaGVscGVyIGZ1bmN0aW9ucyBmb3IgdGhlIHRlYW0gdG8gdXNlIHdoZW4gc2NyaXB0aW5nIGF1dG9tYXRlZCB0ZXN0IGNhc2VzIFwiLFxuICAgICAgICAgIFwiSGVscCBjcmVhdGUgdGhlIHVzZXIgc3RvcmllcyBmb3IgYm90aCB0aGUgbWFudWFsIGFuZCBhdXRvbWF0ZWQgdGVzdCBjYXNlcyBcIixcbiAgICAgICAgXSxcbiAgICAgICAgbGluazpcbiAgICAgICAgICBcImh0dHBzOi8vcGxheS5nb29nbGUuY29tL3N0b3JlL2FwcHMvZGV0YWlscz9pZD1jb20uaGNzYy5hbmRyb2lkLnByb3ZpZGVyZmluZGVyaWwmaGw9ZW5fVVMmZ2w9VVNcIixcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIGNvbXBhbnk6IFwiRm9vZEJvc3NcIixcbiAgICAgICAgdHlwZTogXCJTb2Z0d2FyZSBFbmdpbmVlclwiLFxuICAgICAgICByb2xsOiBcIkludGVyblwiLFxuICAgICAgICBsb2NhdGlvbjogXCJDaGljYWdvLCBJbGxpbm9pc1wiLFxuICAgICAgICB0aW1lOiBcIldpbnRlciAtIFNwcmluZyAyMDIwXCIsXG4gICAgICAgIHdoYXRoYXBwZW5lZDogW1xuICAgICAgICAgIFwiQnVpbHQgaG9tZSBwYWdlLCBzdGF0aWMgcGFnZXMsIHJlZGVzaWduZWQgdGhlIHNlYXJjaCBwYWdlIHVzaW5nIFJlZHV4LCBSZWFjdCBhbmQgTmV4dEpTXCIsXG4gICAgICAgICAgXCJSZWZhY3RvcmVkIGFuZCByZXN0eWxlZCBSZWFjdCBjb21wb25lbnRzIHdpdGggbW9kZXJuIEVTNiBzeW50YXgsIFNDU1MgYW5kIFJlZHV4IFJlYWN0XCIsXG4gICAgICAgICAgXCJBZGRlZCBTZWxlbml1bSB0ZXN0cywgd2l0aCBhIGNocm9tZSBkcml2ZXIsIHRvIG91ciBjb2RlYmFzZSB0byB0ZXN0IHB1bGwgcmVxdWVzdHMgd2hlbiB0aGV5IGdldCBjcmVhdGVkLCBzbyB3ZSBjYW4gYXV0b21hdGljYWxseSB2YWxpZGF0ZSB0aGVtIGJlZm9yZSBtZXJnaW5nIGludG8gc3RhZ2luZyBvciBwcm9kdWN0aW9uXCIsXG4gICAgICAgICAgXCJJbXBsZW1lbnRlZCBhIFB1bGwgUmVxdWVzdCB0ZW1wbGF0ZSB0byBvdXIgR2l0aHViIHJlcG9zaXRvcnkgdG8gaGVscCBvcmdhbml6ZSBhbmQgYWJzdHJhY3QgbmV3IFB1bGwgUmVxdWVzdHNcIixcbiAgICAgICAgXSxcbiAgICAgICAgbGluazogXCJodHRwczovL3d3dy5mb29kYm9zcy5jb20vXCIsXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICBjb21wYW55OiBcIkFuaXh0ZXIgSW50ZXJuYXRpb25hbCBJbmNcIixcbiAgICAgICAgdHlwZTogXCJJbnRlcm5cIixcbiAgICAgICAgcm9sbDogXCJJbmZvcm1hdGlvbiBTZXJ2aWNlcyBEZXZlbG9wbWVudCBQcm9ncmFtXCIsXG4gICAgICAgIGxvY2F0aW9uOiBcIkNoaWNhZ28sIElsbGlub2lzXCIsXG4gICAgICAgIHRpbWU6IFwiU3VtbWVyIDIwMTlcIixcbiAgICAgICAgd2hhdGhhcHBlbmVkOiBbXG4gICAgICAgICAgXCJCdWlsdCBhbiBFbGVjdHJvbiBkZXNrdG9wIGFwcGxpY2F0aW9uIHRvIGZ1bmN0aW9uIGFzIGFuIGludGVyYWN0aXZlIGNhdGFsb2cgZm9yIFByb2plY3QgTWFuYWdlcnMgYW5kIFNhbGVzIFJlcHMgdG8gYWdncmVnYXRlIHRocm91Z2ggYSBkYXRhYmFzZSBvZiBzaGlwcGluZyBsYWJlbHMuIFwiLFxuICAgICAgICAgIFwiQ3JlYXRlZCBhIGRhdGFiYXNlIG9mIDEwMDArIGFjdGl2ZSBzaGlwcGluZyBsYWJlbHMgd2l0aCBjb3JyZXNwb25kaW5nIHdlYiBhcHAgdG8gbWFpbnRhaW4gaXQuXCIsXG4gICAgICAgICAgXCJXcm90ZSBzY3JpcHRzIHRvIGNhbGN1bGF0ZSB0aGUgZXN0aW1hdGVkIHNoaXBwaW5nIGNvc3QgZm9yIHBhY2thZ2VzIHNlbnQgZnJvbSBhIHdhcmVob3VzZSBpbiBOZXcgU291dGggV2FsZXMsIEF1c3RyYWxpYVwiLFxuICAgICAgICBdLFxuICAgICAgICBsaW5rOiBcIm5vbmVcIixcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIGNvbXBhbnk6IFwiQ2hpY2FnbyBUcmFuc2l0IEF1dGhvcml0eVwiLFxuICAgICAgICB0eXBlOiBcIlNvZnR3YXJlIERldmVsb3BtZW50IEludGVyblwiLFxuICAgICAgICByb2xsOiBcIlRyYW5zaXQgT3BlcmF0aW9uc1wiLFxuICAgICAgICBsb2NhdGlvbjogXCJDaGljYWdvLCBJbGxpbm9pc1wiLFxuICAgICAgICB0aW1lOiBcIldpbnRlci9TcHJpbmcgMjAxOCAmIFN1bW1lciAyMDE4XCIsXG4gICAgICAgIHdoYXRoYXBwZW5lZDogW1xuICAgICAgICAgIFwiUmVjcmVhdGVkIGEgMTAgeWVhciBvbGQgd2ViIHBvcnRhbCBmcm9tIHRoZSBncm91bmQgdXAgdXNpbmcgQVNQLk5FVCBNVkNcIixcbiAgICAgICAgICBcIkFkZGVkIG5ldyBmdW5jdGlvbmFsaXR5IHRvIHNoZWx0ZXIvYnVzIHNpZ24gbWFpbnRlbmFuY2UgcHJvZ3JhbSwgZW5hYmxpbmcgbWFpbnRlbmFuY2Ugd29ya2VycyB0byBoYW5kbGUgcmVwYWlycyBxdWlja2VyIGFuZCBlYXNpZXJcIixcbiAgICAgICAgICBcIldyb3RlIGEgZG9jdW1lbnRhdGlvbiBtYW51YWwgZm9yIHRoZSBDVEEgVHJhaW4gVHJhY2tlclwiLFxuICAgICAgICAgIFwiQ3JlYXRlZCBhIHByb2dyYW0gdG8gZGlnaXRpemUgVGVybWluYWwgTG9nIHNoZWV0cy4gRW1wbG95ZWVzIHdvdWxkIHByZXZpb3VzbHkgcmVjb3JkIGRhdGEgb24gcGFwZXIgZm9yIHNvbWVvbmUgZWxzZSB0byBtYW51YWxseSB1cGRhdGUgYSBzcHJlYWRzaGVldCBhZnRlciB0aGVpciBzaGlmdDsgbXkgcHJvZ3JhbSB0YWtlcyBjYXJlIG9mIGFsbCB0aGF0IGluIG9uZSBnby4gV2hlbiBhbiBlbXBsb3llZSBmaWxscyBvdXQgdGhlIGZvcm0sIGl0IGF1dG9tYXRpY2FsbHkgcG9wdWxhdGVzIHRoZSBkYXRhYmFzZVwiLFxuICAgICAgICBdLFxuICAgICAgICBsaW5rOiBcIm5vbmVcIixcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIGNvbXBhbnk6IFwiSWxsaW5vaXMgVG9vbCBXb3Jrc1wiLFxuICAgICAgICB0eXBlOiBcIkNvbXB1dGVyIFNjaWVuY2UgSW50ZXJuXCIsXG4gICAgICAgIHJvbGw6IFwiSW5ub3ZhdGlvbiBDZW50ZXJcIixcbiAgICAgICAgbG9jYXRpb246IFwiR2xlbnZpZXcsIElsbGlub2lzXCIsXG4gICAgICAgIHRpbWU6IFwiU3VtbWVyIDIwMTdcIixcbiAgICAgICAgd2hhdGhhcHBlbmVkOiBbXG4gICAgICAgICAgXCJDcmVhdGVkIGFuZCB1cGRhdGVkIHBhZ2VzIHRvIHRoZSBJVFcgSW5ub3ZhdGlvbiBDZW50ZXIgU2hhcmVwb2ludCB3ZWJzaXRlc1wiLFxuICAgICAgICAgIFwiV3JvdGUgc2NyaXB0cyB0cmFja2luZyBvbmxpbmUgZGF0YSBmb3IgdmFyaW91cyBJVFcgYnJhbmNoZXMuIFRoZSBzY3JpcHRzIGF1dG9tYXRpY2FsbHkgcnVuIGV2ZXJ5IDIgd2Vla3MgdG8gY29sbGVjdCB0d2VldHMsIGJsb2cgcG9zdHMsIFlvdVR1YmUgdmlkZW9zIGFuZCB3aGF0ZXZlciBvdGhlciBvbmxpbmUgY29udGVudCB0aGF0IG1lbnRpb25zIHRoZSBzcGVjaWZpYyBjb21wYW55L3Byb2R1Y3RzXCIsXG4gICAgICAgICAgXCJQcm9ncmFtbWVkIGEgU2F3eWVyIHJvYm90IHRvIGZsaXAgYnVyZ2VycyBhbmQvb3IgcGFuY2FrZXMgZm9yIGEgbGl2ZSBkZW1vIHRvIHNob3cgb24gdG91cnMgb2YgdGhlIElUVyBoZWFkcXVhcnRlcnNcIixcbiAgICAgICAgXSxcbiAgICAgICAgbGluazogXCJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTZhck5xZGRqQzZNXCIsXG4gICAgICB9LFxuICAgIF0sXG4gICAgYWRkaXRpb25hbEluZHVzdHJ5RXhwZXJpZW5jZTogW1xuICAgICAge1xuICAgICAgICBjb21wYW55OiBcIkZ1dGhlYWRcIixcbiAgICAgICAgdHlwZTogXCJWb2x1bnRlZXJcIixcbiAgICAgICAgcm9sbDogXCJNb2RlcmF0b3JcIixcbiAgICAgICAgbG9jYXRpb246IFwiSHVudHN2aWxsZSwgQWxhYmFtYVwiLFxuICAgICAgICB0aW1lOiBcIkZhbGwgMjAxNSAtIFByZXNlbnQgRGF5XCIsXG4gICAgICAgIHdoYXRoYXBwZW5lZDogW1xuICAgICAgICAgIFwiTWFpbnRhaW4gYW5kIG1vbml0b3IgYSBsYXJnZSBvbmxpbmUgRmlmYSBVbHRpbWF0ZSBUZWFtIGNvbW11bml0eSAob3ZlciAxIG1pbGxpb24gdW5pcXVlIHVzZXJzIGFuZCA4MCBtaWwgdW5pcXVlIHZpc2l0b3JzKVwiLFxuICAgICAgICAgIFwiUHJvdmlkZSBmZWVkYmFjayBmb3IgdGhlIG93bmVyIGFuZCBsZWFkIGRldmVsb3BlcnMgdG8gaGVscCB3aXRoIHVwa2VlcCwgdGVzdGluZyBhbmQgcHJvZHVjdGlvbiBvZiBuZXcgZmVhdHVyZXNcIixcbiAgICAgICAgICBcIkxlYXJuZWQgYWJvdXQgd2hhdCBpdCB0YWtlcyB0byBydW4gYSBmb3J1bS9kYXRhYmFzZSB3ZWJzaXRlLCBpbmNsdWRpbmcgdGhlIHZhcmlvdXMgc29jaWFsIG1lZGlhIGFzcGVjdHNcIixcbiAgICAgICAgXSxcbiAgICAgICAgbGluazogXCJodHRwczovL3d3dy5mdXRoZWFkLmNvbS9cIixcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIGNvbXBhbnk6IFwiSW5zcGVjdCBBbGwgSG9tZSBJbnNwZWN0aW9ucyBJbmNcIixcbiAgICAgICAgdHlwZTogXCJXZWIgRGV2ZWxvcGVyXCIsXG4gICAgICAgIHJvbGw6IFwiRnJlZWxhbmNlXCIsXG4gICAgICAgIGxvY2F0aW9uOiBcIkNoaWNhZ28sIElsbGlub2lzXCIsXG4gICAgICAgIHRpbWU6IFwiRmFsbCAyMDIwXCIsXG4gICAgICAgIHdoYXRoYXBwZW5lZDogW1wiVEJEXCJdLFxuICAgICAgICBsaW5rOiBcIm5vbmVcIixcbiAgICAgIH0sXG4gICAgXSxcbiAgICByZWxldmFudENvdXJzZXdvcms6IFtcbiAgICAgIFwiRGF0YSBTdHJ1Y3R1cmVzIDEgJiAyXCIsXG4gICAgICBcIlNvZnR3YXJlIFByb2plY3RzIGZvciBDb21tdW5pdHkgQ2xpZW50c1wiLFxuICAgICAgXCJBZHZhbmNlZCBBcHBsaWNhdGlvbiBEZXZlbG9wbWVudCAxICYgMlwiLFxuICAgICAgXCJTZXJ2ZXItU2lkZSBXZWIgRGV2ZWxvcG1lbnRcIixcbiAgICAgIFwiRGF0YSBBbmFseXNpc1wiLFxuICAgICAgXCJBcHAgRGV2ZWxvcG1lbnQgRnJhbWV3b3JrXCIsXG4gICAgICBcIkh1bWFuIENvbXB1dGVyIEludGVyYWN0aW9uXCIsXG4gICAgICBcIkNvbXB1dGVyIFN5c3RlbXNcIixcbiAgICBdLFxuICAgIHByb2plY3RzOiBbXG4gICAgICB7XG4gICAgICAgIG5hbWU6IFwiVGhpc1wiLFxuICAgICAgICBkZXNjcmlwdGlvbjogXCJJIG1hZGUgdGhpcyB3ZWJzaXRlXCIsXG4gICAgICAgIGxpbms6IFwiL1wiLFxuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgbmFtZTogXCJTaGl0dHkgRGF0aW5nXCIsXG4gICAgICAgIGRlc2NyaXB0aW9uOiBcIlRCQVwiLFxuICAgICAgICBsaW5rOiBcIlRCRFwiLFxuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgbmFtZTogXCJCZWVyXCIsXG4gICAgICAgIGRlc2NyaXB0aW9uOlxuICAgICAgICAgIFwiQW4gaW5kZXB0aCwgc3RhdGlzdGljYWwgYW5kIHNjaWVudGlmaWMgYW5hbHlzaXMgb2YgYWxsIHRoZSBkaWZmZXJlbnQga2luZHMgb2YgYmVlciBJJ3ZlIHNhbXBsZWQgb3ZlciB0aGUgeWVhcnNcIixcbiAgICAgICAgbGluazogXCJiZWVyXCIsXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICBuYW1lOiBcIlBva2Vtb24gVENHIENhcmQgUHJpY2UgQWdncmVnYXRvclwiLFxuICAgICAgICBkZXNjcmlwdGlvbjpcbiAgICAgICAgICBcIkknbSBjdXJyZW50bHkgd29ya2luZyBvbiBhIHByb2plY3QgdG8gc2NyYXBlIFRDRyBQbGF5ZXIsIEViYXkgYW5kIFRyb2xsICYgVG9hZCB0byBjaGVjaywgdHJhY2sgYW5kIGNvbXBhcmUgcHJpY2VzIGZvciBQb2tlbW9uIGNhcmRzXCIsXG4gICAgICAgIGxpbms6IFwiVEJEXCIsXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICBuYW1lOiBcIlRpYyBUYWMgVG9lXCIsXG4gICAgICAgIGRlc2NyaXB0aW9uOlxuICAgICAgICAgIFwiSSBjcmVhdGVkIGEgdGljIHRhYyB0b2UgZ2FtZSBpbiBSZWFjdCBSZWR1eCB0byBzZXJ2ZXIgYXMgYSBwb3RlbnRpYWwgaW50ZXJ2aWV3IHByb2plY3QgZm9yIEZvb2RCb3NzXCIsXG4gICAgICAgIGxpbms6IFwiaHR0cHM6Ly9kaXBhb2xvLXJlYWN0LXJlZHV4LXR0dC5oZXJva3VhcHAuY29tL1wiLFxuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgbmFtZTogXCJJcyBpdCBSb3RhdGluZz8gUG9rZW1vbiBUQ0cgMjAxOS0yMDIwXCIsXG4gICAgICAgIGRlc2NyaXB0aW9uOlxuICAgICAgICAgIFwiSSBjcmVhdGVkIGEgdG9vbCByZWFkIGZyb20gdGhlIFBva2Vtb24gVENHTyBBUEkgYW5kIGNoZWNrIHRvIHNlZSB3aGljaCBjYXJkcyBhcmUgbGVhdmluZyB0aGUgZm9ybWF0IGNvbWUgdGhlIDIwMTkgcm90YXRpb25cIixcbiAgICAgICAgbGluazogXCJodHRwczovL25vdG1pY2hhZWxzZ2l0aHViLmdpdGh1Yi5pby9pc19pdF9yb3RhdGluZy9cIixcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIG5hbWU6IFwiV29nd29uJ3MgRklGQSBJRyBTdGF0IENhbGN1bGF0b3JcIixcbiAgICAgICAgZGVzY3JpcHRpb246XG4gICAgICAgICAgXCJBIHdlYiBhcHAgdXNpbmcgdGhlIGxlZ2VuZGFyeSBGdXRoZWFkZXIgV29nd29uJ3MgY2FyZCBzdGF0IGFsZ29yaXRobS4gVGhpcyB3YXMgdGhlIGZpcnN0IGphdmFzY3JpcHQgcHJvamVjdCBJIG1hZGUgYmFjayBpbiBoaWdoIHNjaG9vbCBhbmQgSSdsbCBsb3ZlIGl0IGZvcmV2ZXJcIixcbiAgICAgICAgbGluazogXCJodHRwczovL25vdG1pY2hhZWxzZ2l0aHViLmdpdGh1Yi5pby93b2d3b25jYWxjL1wiLFxuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgbmFtZTogXCJNeSBDb2RlIFBlbiBhY2NvdW50XCIsXG4gICAgICAgIGRlc2NyaXB0aW9uOlxuICAgICAgICAgIFwiSSB0b3NzIHVwIGNvb2wvdXNlZnVsIGJsb2NrcyBvZiBjb2RlIGhlcmUgdGhhdCBkb24ndCB3YXJyYW50IGEgd2hvbGUgcHJvamVjdCBiYXNlZCBhcm91bmQgdGhlbVwiLFxuICAgICAgICBsaW5rOiBcImh0dHBzOi8vY29kZXBlbi5pby9Ob3RNaWNoYWVsL3BlbnMvXCIsXG4gICAgICB9LFxuICAgIF0sXG4gICAgc3BvcnRzOiBbXG4gICAgICB7XG4gICAgICAgIG5hbWU6IFwiRGVQYXVsIE1lbidzIENsdWIgVm9sbGV5YmFsbFwiLFxuICAgICAgICBwb3NpdGlvbjogXCJMaWJlcm9cIixcbiAgICAgICAgdGltZTogXCIyMDE2IC0gMjAyMFwiLFxuICAgICAgICBhY2NvbGFkZXM6IFtcbiAgICAgICAgICBcIjFzdCBQbGFjZSBNZW4ncyBBQSBHb2xkIEAgTUlWQXMgMTYtMTdcIixcbiAgICAgICAgICBcIjNyZCBQbGFjZSBNZW4ncyBBQSBHb2xkIEAgTmF0aW9uYWxzIDE2LTE3XCIsXG4gICAgICAgICAgXCIxNXRoIFBsYWNlIE1lbidzIEEgR29sZCBAIE5hdGlvbmFscyAxNy0xOFwiLFxuICAgICAgICAgIFwiMXN0IFBsYWNlIE1lbidzIEEgU2lsdmVyIEAgTmF0aW9uYWxzIDE4LTE5XCIsXG4gICAgICAgIF0sXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICBuYW1lOiBcIkRlUGF1bCBNZW4ncyBDbHViIFNvY2NlclwiLFxuICAgICAgICBwb3NpdGlvbjogXCJEZWZlbnNpdmUgTWlkXCIsXG4gICAgICAgIHRpbWU6IFwiMjAxNyAtIDIwMjBcIixcbiAgICAgICAgYWNjb2xhZGVzOiBbXCJXZSB0cmllZFwiXSxcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIG5hbWU6IFwiRGkgUGFvbG8gRkNcIixcbiAgICAgICAgcG9zaXRpb246IFwiRGVmZW5zaXZlIE1pZCAvIFJpZ2h0IFdpbmdiYWNrXCIsXG4gICAgICAgIHRpbWU6IFwiMjAxOSAtIFByZXNlbnQgRGF5XCIsXG4gICAgICAgIGFjY29sYWRlczogW1wiMXN0IFBsYWNlIEFkdmFuY2VkIENvLUVkIDd2NyBAIENGUlMgU3VtbWVyIFNlc3Npb24gMjAxOVwiXSxcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIG5hbWU6IFwiQ29tcGV0aXRpdmUgUG9rZW1vblwiLFxuICAgICAgICBwb3NpdGlvbjogXCJTZW5pb3JcIixcbiAgICAgICAgdGltZTogXCIxOTk4IC0gUHJlc2VudCBEYXlcIixcbiAgICAgICAgYWNjb2xhZGVzOiBbXG4gICAgICAgICAgXCIxN3RoIFBsYWNlIE1hZGlzb24gVkdDIFJlZ2lvbmFsIC0gMjAxOFwiLFxuICAgICAgICAgIFwiMXN0IFBsYWNlIFdlZG5lc2RheSBOaWdodCBTdGFuZGFyZCBUQ0cgVG91cm5hbWVudCBAIE5lYXIgTWludCBHYW1lcyA3LzMvMTlcIixcbiAgICAgICAgXSxcbiAgICAgIH0sXG4gICAgXSxcbiAgICBsYW5ndWFnZXM6IFtcbiAgICAgIHtcbiAgICAgICAgbmFtZTogXCJFbmdsaXNoXCIsXG4gICAgICAgIGxldmVsOiBcIkZsdWVudFwiLFxuICAgICAgICB5ZWFyczogXCIyMSB5ZWFyc1wiLFxuICAgICAgfSxcbiAgICAgIHtcbiAgICAgICAgbmFtZTogXCJKYXBhbmVzZVwiLFxuICAgICAgICBsZXZlbDogXCJCZWdpbm5lclwiLFxuICAgICAgICB5ZWFyczogXCIxIHllYXJcIixcbiAgICAgIH0sXG4gICAgXSxcbiAgfTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./reducers/resume-reducer.js\n");
+
+/***/ }),
+
+/***/ "./styles/resume.css":
+/*!***************************!*\
+  !*** ./styles/resume.css ***!
+  \***************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
+eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3N0eWxlcy9yZXN1bWUuY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./styles/resume.css\n");
+
+/***/ }),
+
+/***/ 0:
+/*!****************************************!*\
+  !*** multi private-next-pages/_app.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
 
 
 /***/ }),
 
-/***/ "rKB8":
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("redux");
+eval("module.exports = require(\"react\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJyZWFjdFwiPzU4OGUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoicmVhY3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJyZWFjdFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///react\n");
 
 /***/ }),
 
-/***/ "wQ99":
+/***/ "react-redux":
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
+eval("module.exports = require(\"react-redux\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJyZWFjdC1yZWR1eFwiPzc4Y2QiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoicmVhY3QtcmVkdXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJyZWFjdC1yZWR1eFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///react-redux\n");
 
+/***/ }),
+
+/***/ "redux":
+/*!************************!*\
+  !*** external "redux" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"redux\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJyZWR1eFwiP2QzMjUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoicmVkdXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJyZWR1eFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///redux\n");
 
 /***/ })
 

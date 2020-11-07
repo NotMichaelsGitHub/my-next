@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 const TrophyCabinet = (props) => {
 
   const createCard = (trophies) => {
-    
     return(
       <>
         {trophies.map(function(trophy, index) {

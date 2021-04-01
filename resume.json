@@ -81,16 +81,16 @@
                   ]
             }
          ],
-         "Deploy Solutions Inc":
+         "To be named Music Technology Start Up":
          [
             {
-               "type": "Web Developer",
+               "type": "Software Developer",
                "roll": "Freelance",
-               "location": "Toronto, Canada",
-               "time": "Spring 2020",
+               "location": "Dallas, Teas",
+               "time": "Winter 2020 - Present Day",
                "what-i-did":
                   [
-                     "TBD"
+                     "I have been building the website for a new music technology start up. The project is a React Web app that will have the following features: Introduction to the software, static pages (FAQ, Legal, etc), User Docs, Account Management, Google Analytics, and a way to download/pay for the product"
                   ]
             }
          ]

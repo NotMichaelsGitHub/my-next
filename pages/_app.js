@@ -12,6 +12,7 @@ import allReducers from '../reducers';
 const store = createStore(allReducers);
 
 export default function MyApp({ Component, pageProps }) {
+
   return(
     <Provider store={store}>
       <Component {...pageProps} />

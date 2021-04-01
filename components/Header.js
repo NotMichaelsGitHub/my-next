@@ -27,11 +27,14 @@ const Header = () => (
         <Link href='/japan-vlogs'>
           <a>Japan Vlogs</a>
         </Link>
-        <Link href='https://myanimelist.net/animelist/NotMichael?status=7&order=4&order2=0'>
+        <Link href='/pokemon'>
+          <a>Michael's PC</a>
+        </Link>
+        {/* <Link href='https://myanimelist.net/animelist/NotMichael?status=7&order=4&order2=0'>
           <a target='_blank'>
           MAL
           </a>
-        </Link>
+        </Link> */}
       </Nav>
       <Navbar.Text>
         <Link href='https://twitter.com/NotNotMichael'>

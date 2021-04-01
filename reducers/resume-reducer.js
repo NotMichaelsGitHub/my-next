@@ -86,6 +86,15 @@ export default function () {
         link: "https://www.futhead.com/",
       },
       {
+        company: "TDB Tech",
+        type: "Software Developer",
+        roll: "Freelance",
+        location: "Dallas, Texas",
+        time: "Winter 2020 - Present Day",
+        whathappened: ["I am creating a website for a music software technology start up. The project will be the home for their online resources. It'll have; an introduction to the company/product, user docs, static pages (faq, contact, etc), a way to download and purchase the software, etc"],
+        link: "none",
+      },
+      {
         company: "Inspect All Home Inspections Inc",
         type: "Web Developer",
         roll: "Freelance",
@@ -107,9 +116,19 @@ export default function () {
     ],
     projects: [
       {
+        name: "Unison Tech",
+        description: "I am creating a web project to handle the online experience for an upcoming music software start up. The website is still in development but a demo of the skeleton is linked below",
+        link: "https://blue-mustache.vercel.app/",
+      },
+      {
         name: "This",
         description: "I made this website",
         link: "/",
+      },
+      {
+        name: "Has Swansea City been promoted yet dot com",
+        description: "An in depth statstical analysis of Swansea City's championship campaign and our journey back to the Premier League",
+        link: "TBD",
       },
       {
         name: "Shitty Dating",
@@ -139,19 +158,7 @@ export default function () {
         description:
           "I created a tool read from the Pokemon TCGO API and check to see which cards are leaving the format come the 2019 rotation",
         link: "https://notmichaelsgithub.github.io/is_it_rotating/",
-      },
-      {
-        name: "Wogwon's FIFA IG Stat Calculator",
-        description:
-          "A web app using the legendary Futheader Wogwon's card stat algorithm. This was the first javascript project I made back in high school and I'll love it forever",
-        link: "https://notmichaelsgithub.github.io/wogwoncalc/",
-      },
-      {
-        name: "My Code Pen account",
-        description:
-          "I toss up cool/useful blocks of code here that don't warrant a whole project based around them",
-        link: "https://codepen.io/NotMichael/pens/",
-      },
+      }
     ],
     sports: [
       {
@@ -191,12 +198,12 @@ export default function () {
       {
         name: "English",
         level: "Fluent",
-        years: "21 years",
+        years: "1998 - Present Day",
       },
       {
         name: "Japanese",
         level: "Beginner",
-        years: "1 year",
+        years: "2020 - Present Day",
       },
     ],
   };

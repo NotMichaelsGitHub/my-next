@@ -1,13 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/beer": "pages/beer.html",
-  "/": "pages/index.html",
-  "/japan-vlogs": "pages/japan-vlogs.html",
-  "/kits": "pages/kits.html",
-  "/resume": "pages/resume.html",
-  "/tictactoe": "pages/tictactoe.html",
-  "/trophy-cabinet": "pages/trophy-cabinet.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/pokemon": "pages/pokemon.js"
 }

@@ -1,4 +1,4 @@
-export default function () {
+export default function resumeReduver() {
   return {
     jobs: [
       {
@@ -92,7 +92,7 @@ export default function () {
         location: "Dallas, Texas",
         time: "Winter 2020 - Present Day",
         whathappened: ["I am creating a website for a music software technology start up. The project will be the home for their online resources. It'll have; an introduction to the company/product, user docs, static pages (faq, contact, etc), a way to download and purchase the software, etc"],
-        link: "none",
+        link: "https://blue-mustache.vercel.app/",
       },
       {
         company: "Inspect All Home Inspections Inc",

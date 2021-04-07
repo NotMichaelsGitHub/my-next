@@ -26,7 +26,13 @@ const Pokemon = () => {
                 </a>
               </Link>
             </Card.Title>
-              <Card.Subtitle className='mb-2 text-muted'>Github Repo</Card.Subtitle>
+              <Card.Subtitle className='mb-2 text-muted'>
+                <Link href='https://github.com/NotMichaelsGitHub/honchkrow-app'>
+                  <a target='_blank'>
+                    Github Repo
+                  </a>
+                </Link>
+              </Card.Subtitle>
                 <Card.Text>
                   A barebones demo project that successfuly impliments the Redux Store and actions
                 </Card.Text>
@@ -41,7 +47,7 @@ const Pokemon = () => {
               <Card.Img variant='top' src="https://i.imgur.com/fMMwGxH.png"/>
               <Card.Body>
                 <Card.Title>
-                  <Link href='https://www.kircketune.com'>
+                  <Link href='https://kricketune.com/'>
                   <a target='_blank'>
                     Kricketune
                   </a>
@@ -49,7 +55,7 @@ const Pokemon = () => {
                 </Card.Title>
                 <Card.Subtitle className='mb-2 text-muted'>Github Repo</Card.Subtitle>
                 <Card.Text>
-                  Dee dee dee wooooop
+                  honestly, not sure what to do with this yet
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -60,7 +66,7 @@ const Pokemon = () => {
                 {/* <Card.Img variant='top' src="http://static.pokemonpets.com/images/monsters-images-800-800/409-Rampardos.png"/> */}
                 <Card.Img variant='top' src="https://static.wikia.nocookie.net/pokemon/images/c/c5/409Rampardos_DP_anime.png/revision/latest/top-crop/width/300/height/300?cb=20141130005156"/>
                 <Card.Body>
-                  <Card.Title>Rampardos</Card.Title>
+                  <Card.Title>Rampardos (WIP)</Card.Title>
                   <Card.Subtitle className='mb-2 text-muted'>Github Repo</Card.Subtitle>
                   <Card.Text>
                     Twitter bot that counts down the days until Jojo Part 7 gets announced 
@@ -81,7 +87,13 @@ const Pokemon = () => {
                       </a>
                     </Link>
                   </Card.Title>
-                  <Card.Subtitle className='mb-2 text-muted'>Github Repo</Card.Subtitle>
+                  <Card.Subtitle className='mb-2 text-muted'>
+                    <Link href='https://github.com/NotMichaelsGitHub/jacksaregoingup'>
+                      <a target='_blank'>
+                        Github Repo
+                      </a>
+                    </Link>
+                  </Card.Subtitle>
                   <Card.Text>
                     A web app that displays Swansea City's postition in the EFL Championship that demonstrates how to make API calls using React Hooks
                   </Card.Text>

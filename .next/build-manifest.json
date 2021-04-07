@@ -26,6 +26,21 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/kits": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/kits.js"
+    ],
+    "/pokemon": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/pokemon.js"
+    ],
+    "/resume": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/resume.js"
+    ],
     "/trophy-cabinet": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",

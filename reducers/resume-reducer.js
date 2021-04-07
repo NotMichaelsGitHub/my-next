@@ -116,7 +116,7 @@ export default function () {
     ],
     projects: [
       {
-        name: "Unison Tech",
+        name: "Unamed Tech Company",
         description: "I am creating a web project to handle the online experience for an upcoming music software start up. The website is still in development but a demo of the skeleton is linked below",
         link: "https://blue-mustache.vercel.app/",
       },
@@ -126,9 +126,15 @@ export default function () {
         link: "/",
       },
       {
-        name: "Has Swansea City been promoted yet dot com",
-        description: "An in depth statstical analysis of Swansea City's championship campaign and our journey back to the Premier League",
-        link: "TBD",
+        name: "Michael's PC",
+        description:
+          "A collection of single page web apps that showcase a specific skill or technology",
+        link: "pokemon",
+      },
+      {
+        name: "Jacks are going up dot com",
+        description: "A web project following Swansea City's championship campaign and our journey back to the Premier League",
+        link: "https://jacksaregoingup.com/",
       },
       {
         name: "Shitty Dating",

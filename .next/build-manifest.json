@@ -26,10 +26,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/pokemon": [
+    "/trophy-cabinet": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/pokemon.js"
+      "static/chunks/pages/trophy-cabinet.js"
     ]
   },
   "ampFirstPages": []

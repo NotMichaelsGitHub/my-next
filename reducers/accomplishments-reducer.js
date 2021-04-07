@@ -1,4 +1,4 @@
-export default function() {
+export default function Accomplishments() {
   return {
     accomplishments: [
       {
@@ -29,6 +29,13 @@ export default function() {
         time: 'Fall 2019',
         blurb: '',
       },
+      {
+        name: 'Near Mint Games Weekly Standard Pokemon Tounrament ',
+        link: 'https://i.imgur.com/kt3u6nv.jpg',
+        team: 'Spiritomb Umbreon',
+        time: '7/13/19',
+        blurb: '',
+      }
 
     ],
   };

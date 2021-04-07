@@ -21,12 +21,12 @@ const Header = () => (
         <Link href='/trophy-cabinet'>
           <a>Trophy Cabinet</a>
         </Link>
-        <Link href='/beer'>
+        {/* <Link href='/beer'>
           <a>Beer</a>
-        </Link>
-        <Link href='/japan-vlogs'>
+        </Link> */}
+        {/* <Link href='/japan-vlogs'>
           <a>Japan Vlogs</a>
-        </Link>
+        </Link> */}
         <Link href='/pokemon'>
           <a>Michael's PC</a>
         </Link>

@@ -1,13 +1,12 @@
 import Link from 'next/link';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Container, Navbar, Nav } from 'react-bootstrap';
 
 const Header = () => (
-
   <Navbar bg='light' expand='lg'>
     <Navbar.Brand>
-      <Link href='/'>
-        <a className='brand'>michaeldipaolo.com</a>
-      </Link>
+      <Container>
+        <Navbar.Brand href='/'>michaeldipaolo.com</Navbar.Brand>
+      </Container>
     </Navbar.Brand>
     <Navbar.Toggle aria-controls='basic-navbar-nav' />
     <Navbar.Collapse id='basic-navbar-nav'>
@@ -15,20 +14,15 @@ const Header = () => (
         <Link href='/resume'>
           <a>Resume</a>
         </Link>
+        <Link href='/dunkin'>
+          <a>Sabermetrics</a>
+        </Link>
         <Link href='/kits'>
           <a>Kits</a>
         </Link>
         <Link href='/trophy-cabinet'>
           <a>Trophy Cabinet</a>
         </Link>
-        <Link href='/pokemon'>
-          <a>Michael's PC</a>
-        </Link>
-        {/* <Link href='https://myanimelist.net/animelist/NotMichael?status=7&order=4&order2=0'>
-          <a target='_blank'>
-          MAL
-          </a>
-        </Link> */}
       </Nav>
       <Navbar.Text>
         <Link href='https://twitter.com/NotNotMichael'>
@@ -46,10 +40,19 @@ const Header = () => (
             Linkedin
           </a>
         </Link>
+        <Link href='https://myanimelist.net/animelist/NotMichael?status=7&order=4&order2=0'>
+          <a target='_blank'>
+            MAL
+          </a>
+        </Link>
+        <Link href='https://www.instagram.com/saturdaysfootballchicago/'>
+          <a target='_blank'>
+            SF Chicago
+          </a>
+        </Link>
       </Navbar.Text>  
     </Navbar.Collapse>
   </Navbar>
-
 );
 
 export default Header;

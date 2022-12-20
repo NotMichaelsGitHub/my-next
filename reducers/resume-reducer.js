@@ -2,24 +2,26 @@ export default function resumeReduver() {
   return {
     jobs: [
       {
-        company: "Health Care Service Corportaion (BCBS)",
-        type: "Software Engineer (Test)",
+        company: "Health Care Service Corporation (Blue Cross Blue Shield Illinois)",
+        type: "Software Engineer ",
         roll: "Associate",
         location: "Chicago, Illinois",
-        time: "Summer - Present Day",
+        time: "Summer 2020 - Present Day",
         whathappened: [
-          "Write and manage automated testing scripts for the BCBSIL Android app using Java, Selenium and Maven ",
-          "Leading the refactoring efforts to clean up the mobile app testing framework (both Android and iOS)",
-          "Created a slew of new reusable helper functions for the team to use when scripting automated test cases ",
-          "Help create the user stories for both the manual and automated test cases ",
+          "Create and add new functionality to components for Blue Access for Members web app using React, Redux, and Typescript",
+          "Maintain, refactor and build out new functionality for multiple Java APIs",
+          "Refactoring project to incorporate Micro Frontends using Single-SPA Framework",
+          "Manage weekly prod deployments, and work directly with our deployment Concourse CI pipeline",
+          "Write and manage automated testing scripts for the BCBSIL Android app using Java, Selenium and Perfecto Lab",
+          "Lead the refactoring efforts to clean up the mobile app testing framework (both Android and iOS)"
         ],
         link:
-          "https://play.google.com/store/apps/details?id=com.hcsc.android.providerfinderil&hl=en_US&gl=US",
+          "https://www.bcbsil.com/bcchp/resources/blue-access-for-members",
       },
       {
         company: "FoodBoss",
         type: "Software Engineer",
-        roll: "Intern",
+        roll: "Contract",
         location: "Chicago, Illinois",
         time: "Winter - Spring 2020",
         whathappened: [
@@ -74,10 +76,10 @@ export default function resumeReduver() {
     additionalIndustryExperience: [
       {
         company: "Futhead",
-        type: "Volunteer",
-        roll: "Moderator",
+        type: "FIFA Forum & Database",
+        roll: "Community Manager",
         location: "Huntsville, Alabama",
-        time: "Fall 2015 - Present Day",
+        time: "Fall 2015 - 2020",
         whathappened: [
           "Maintain and monitor a large online Fifa Ultimate Team community (over 1 million unique users and 80 mil unique visitors)",
           "Provide feedback for the owner and lead developers to help with upkeep, testing and production of new features",
@@ -86,9 +88,9 @@ export default function resumeReduver() {
         link: "https://www.futhead.com/",
       },
       {
-        company: "TDB Tech",
-        type: "Software Developer",
-        roll: "Freelance",
+        company: "Saturdays Football Chicago",
+        type: "Non-Profit Free to Play Soccer",
+        roll: "Co-Foudner",
         location: "Dallas, Texas",
         time: "Winter 2020 - Present Day",
         whathappened: ["I am creating a website for a music software technology start up. The project will be the home for their online resources. It'll have; an introduction to the company/product, user docs, static pages (faq, contact, etc), a way to download and purchase the software, etc"],
@@ -99,7 +101,7 @@ export default function resumeReduver() {
         type: "Web Developer",
         roll: "Freelance",
         location: "Chicago, Illinois",
-        time: "Fall 2020",
+        time: "Winter 2022",
         whathappened: ["TBD"],
         link: "none",
       },
@@ -113,13 +115,10 @@ export default function resumeReduver() {
       "App Development Framework",
       "Human Computer Interaction",
       "Computer Systems",
+      "Baseball Analytics",
+      "Baseball Sabermetrics"
     ],
     projects: [
-      {
-        name: "Unamed Tech Company",
-        description: "I am creating a web project to handle the online experience for an upcoming music software start up. The website is still in development but a demo of the skeleton is linked below",
-        link: "https://blue-mustache.vercel.app/",
-      },
       {
         name: "This",
         description: "I made this website",
@@ -132,32 +131,21 @@ export default function resumeReduver() {
         link: "pokemon",
       },
       {
+        name: "Top 100 Fifa Songs",
+        description:
+          "A tool to help you create a playlist of your top 100 FIFA songs (WIP)",
+        link: "https://www.top100fifasongs.com/",
+      },
+      {
         name: "Jacks are going up dot com",
         description: "A web project following Swansea City's championship campaign and our journey back to the Premier League",
         link: "https://jacksaregoingup.com/",
-      },
-      {
-        name: "Shitty Dating",
-        description: "TBA",
-        link: "TBD",
-      },
-      {
-        name: "Beer",
-        description:
-          "An indepth, statistical and scientific analysis of all the different kinds of beer I've sampled over the years",
-        link: "beer",
       },
       {
         name: "Pokemon TCG Card Price Aggregator",
         description:
           "I'm currently working on a project to scrape TCG Player, Ebay and Troll & Toad to check, track and compare prices for Pokemon cards",
         link: "TBD",
-      },
-      {
-        name: "Tic Tac Toe",
-        description:
-          "I created a tic tac toe game in React Redux to server as a potential interview project for FoodBoss",
-        link: "https://dipaolo-react-redux-ttt.herokuapp.com/",
       },
       {
         name: "Is it Rotating? Pokemon TCG 2019-2020",

@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/react-remake.css';
 import '../styles/resume.css';
 
 // import withRedux from 'next-redux-wrapper'; // this replaces all calls to it in containers

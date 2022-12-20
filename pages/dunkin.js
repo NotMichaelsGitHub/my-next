@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/MyLayout';
 import Sabermetrics from '../components/Sabermetrics';
 
-const JapanVlogs = () => {
+const Dunkin = () => {
   return (
     <Layout>
       <Sabermetrics/>
@@ -10,4 +10,4 @@ const JapanVlogs = () => {
   );
 };
 
-export default JapanVlogs;
+export default Dunkin;

@@ -1,8 +1,7 @@
-import './react-remake.css';
-
 import Link from 'next/link';
 import React from 'react';
 import Head from 'next/head';
+//import '../styles/react-remake.css';
 
 function App() {
   return (
